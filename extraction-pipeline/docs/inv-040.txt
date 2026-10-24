@@ -1,0 +1,5 @@
+Subject: your invoice
+From: billing@quill.example
+
+Hi, attaching INV-2026-1040 dated 5 August 2026 for software licence. Goods came to 5209.00 before tax; tax was 364.63; grand total 5598.63. 
+Thanks, Quill Freight billing

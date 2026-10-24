@@ -1,0 +1,5 @@
+Subject: your invoice
+From: billing@pinecrest.example
+
+Hi, attaching INV-2026-1030 dated 9 March 2024 for software licence. Goods came to 605.00 before tax; tax was 48.40; grand total 653.40. 
+Thanks, Pinecrest Software billing

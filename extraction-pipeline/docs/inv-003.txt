@@ -1,0 +1,1 @@
+Invoice INV-2026-1003 from Harbor Labs, issued 18 March 2025. This covers: 2 x Item A at $87.00; 5 x Item B at $176.00. Purchase type: Travel expenses. Subtotal comes to $1054.00, tax is $84.32, so the amount due is $1138.32. 

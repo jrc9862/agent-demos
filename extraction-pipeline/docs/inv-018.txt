@@ -1,0 +1,13 @@
+Harbor Labs
+INVOICE INV-2026-1018   Date: 2026-06-12
+Category: Software licence
+
+Item       Qty     Price
+Item A       4    305.00
+Item B       2    749.00
+Item C       5    392.00
+
+Subtotal 4678.00
+Tax 385.94
+TOTAL 5063.94
+Warranty valid until 7 August 2027.

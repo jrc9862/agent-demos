@@ -1,0 +1,10 @@
+Reyes; Okafor (2015). Effects of remote work and attention: a randomised controlled trial.
+We enrolled 2786 participants. Prior work [1-6] motivates this question. Effects were modest.
+
+References
+1. Lindqvist et al. 2012.
+2. Reyes et al. 2020.
+3. Tanaka et al. 2006.
+4. Haddad et al. 2015.
+5. Barros et al. 2018.
+6. Marsh et al. 2016.

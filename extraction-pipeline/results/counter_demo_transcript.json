@@ -1,0 +1,1199 @@
+[
+ {
+  "doc_id": "inv-002",
+  "truth_warranty_date": null,
+  "naive_no_grounding": {
+   "calls": 6,
+   "final_warranty_date": "null",
+   "history": [
+    {
+     "attempt": 1,
+     "prompt_tail": "<document>\nInvoice INV-2026-1002 from Northwind Supply, issued 21 November 2024. This covers: 5 x Item A at $474.00; 1 x Item B at $886.00. Purchase type: Hardware purchase. Subtotal comes to $3256.00, tax is $162.80, so the amount due is $3418.80. \n\n</document>",
+     "data": {
+      "invoice_number": "INV-2026-1002",
+      "vendor": "Northwind Supply",
+      "invoice_date": "2024-11-21",
+      "category": "hardware",
+      "other_detail": "null",
+      "subtotal": 3256.0,
+      "tax": 162.8,
+      "stated_total": 3418.8,
+      "calculated_total": 3418.8,
+      "warranty_date": "null",
+      "confidence": {
+       "invoice_number": 0.95,
+       "vendor": 0.95,
+       "invoice_date": 0.95,
+       "category": 0.95,
+       "other_detail": 0.95,
+       "subtotal": 0.95,
+       "tax": 0.95,
+       "stated_total": 0.95,
+       "calculated_total": 0.95,
+       "warranty_date": 0.95
+      }
+     },
+     "issues": [
+      "warranty_date='null' is not a valid YYYY-MM-DD date."
+     ]
+    },
+    {
+     "attempt": 2,
+     "prompt_tail": "\": 0.95, \"vendor\": 0.95, \"invoice_date\": 0.95, \"category\": 0.95, \"other_detail\": 0.95, \"subtotal\": 0.95, \"tax\": 0.95, \"stated_total\": 0.95, \"calculated_total\": 0.95, \"warranty_date\": 0.95}}\n\nIt failed these checks:\n- warranty_date='null' is not a valid YYYY-MM-DD date.\n\nRe-read the document and call `extract` again. If the document itself contains the inconsistent numbers, keep the printed values.",
+     "data": {
+      "invoice_number": "INV-2026-1002",
+      "vendor": "Northwind Supply",
+      "invoice_date": "2024-11-21",
+      "category": "hardware",
+      "other_detail": "null",
+      "subtotal": 3256.0,
+      "tax": 162.8,
+      "stated_total": 3418.8,
+      "calculated_total": 3418.8,
+      "warranty_date": "null",
+      "confidence": {
+       "invoice_number": 0.95,
+       "vendor": 0.95,
+       "invoice_date": 0.95,
+       "category": 0.95,
+       "other_detail": 0.95,
+       "subtotal": 0.95,
+       "tax": 0.95,
+       "stated_total": 0.95,
+       "calculated_total": 0.95,
+       "warranty_date": 0.95
+      }
+     },
+     "issues": [
+      "warranty_date='null' is not a valid YYYY-MM-DD date."
+     ]
+    },
+    {
+     "attempt": 3,
+     "prompt_tail": "\": 0.95, \"vendor\": 0.95, \"invoice_date\": 0.95, \"category\": 0.95, \"other_detail\": 0.95, \"subtotal\": 0.95, \"tax\": 0.95, \"stated_total\": 0.95, \"calculated_total\": 0.95, \"warranty_date\": 0.95}}\n\nIt failed these checks:\n- warranty_date='null' is not a valid YYYY-MM-DD date.\n\nRe-read the document and call `extract` again. If the document itself contains the inconsistent numbers, keep the printed values.",
+     "data": {
+      "invoice_number": "INV-2026-1002",
+      "vendor": "Northwind Supply",
+      "invoice_date": "2024-11-21",
+      "category": "hardware",
+      "other_detail": "null",
+      "subtotal": 3256.0,
+      "tax": 162.8,
+      "stated_total": 3418.8,
+      "calculated_total": 3418.8,
+      "warranty_date": "null",
+      "confidence": {
+       "invoice_number": 0.95,
+       "vendor": 0.95,
+       "invoice_date": 0.95,
+       "category": 0.95,
+       "other_detail": 0.95,
+       "subtotal": 0.95,
+       "tax": 0.95,
+       "stated_total": 0.95,
+       "calculated_total": 0.95,
+       "warranty_date": 0.95
+      }
+     },
+     "issues": [
+      "warranty_date='null' is not a valid YYYY-MM-DD date."
+     ]
+    },
+    {
+     "attempt": 4,
+     "prompt_tail": "\": 0.95, \"vendor\": 0.95, \"invoice_date\": 0.95, \"category\": 0.95, \"other_detail\": 0.95, \"subtotal\": 0.95, \"tax\": 0.95, \"stated_total\": 0.95, \"calculated_total\": 0.95, \"warranty_date\": 0.95}}\n\nIt failed these checks:\n- warranty_date='null' is not a valid YYYY-MM-DD date.\n\nRe-read the document and call `extract` again. If the document itself contains the inconsistent numbers, keep the printed values.",
+     "data": {
+      "invoice_number": "INV-2026-1002",
+      "vendor": "Northwind Supply",
+      "invoice_date": "2024-11-21",
+      "category": "hardware",
+      "other_detail": "null",
+      "subtotal": 3256.0,
+      "tax": 162.8,
+      "stated_total": 3418.8,
+      "calculated_total": 3418.8,
+      "warranty_date": "null",
+      "confidence": {
+       "invoice_number": 0.95,
+       "vendor": 0.95,
+       "invoice_date": 0.95,
+       "category": 0.95,
+       "other_detail": 0.95,
+       "subtotal": 0.95,
+       "tax": 0.95,
+       "stated_total": 0.95,
+       "calculated_total": 0.95,
+       "warranty_date": 0.95
+      }
+     },
+     "issues": [
+      "warranty_date='null' is not a valid YYYY-MM-DD date."
+     ]
+    },
+    {
+     "attempt": 5,
+     "prompt_tail": "\": 0.95, \"vendor\": 0.95, \"invoice_date\": 0.95, \"category\": 0.95, \"other_detail\": 0.95, \"subtotal\": 0.95, \"tax\": 0.95, \"stated_total\": 0.95, \"calculated_total\": 0.95, \"warranty_date\": 0.95}}\n\nIt failed these checks:\n- warranty_date='null' is not a valid YYYY-MM-DD date.\n\nRe-read the document and call `extract` again. If the document itself contains the inconsistent numbers, keep the printed values.",
+     "data": {
+      "invoice_number": "INV-2026-1002",
+      "vendor": "Northwind Supply",
+      "invoice_date": "2024-11-21",
+      "category": "hardware",
+      "other_detail": "null",
+      "subtotal": 3256.0,
+      "tax": 162.8,
+      "stated_total": 3418.8,
+      "calculated_total": 3418.8,
+      "warranty_date": "null",
+      "confidence": {
+       "invoice_number": 0.95,
+       "vendor": 0.95,
+       "invoice_date": 0.95,
+       "category": 0.95,
+       "other_detail": 0.95,
+       "subtotal": 0.95,
+       "tax": 0.95,
+       "stated_total": 0.95,
+       "calculated_total": 0.95,
+       "warranty_date": 0.95
+      }
+     },
+     "issues": [
+      "warranty_date='null' is not a valid YYYY-MM-DD date."
+     ]
+    },
+    {
+     "attempt": 6,
+     "prompt_tail": "\": 0.95, \"vendor\": 0.95, \"invoice_date\": 0.95, \"category\": 0.95, \"other_detail\": 0.95, \"subtotal\": 0.95, \"tax\": 0.95, \"stated_total\": 0.95, \"calculated_total\": 0.95, \"warranty_date\": 0.95}}\n\nIt failed these checks:\n- warranty_date='null' is not a valid YYYY-MM-DD date.\n\nRe-read the document and call `extract` again. If the document itself contains the inconsistent numbers, keep the printed values.",
+     "data": {
+      "invoice_number": "INV-2026-1002",
+      "vendor": "Northwind Supply",
+      "invoice_date": "2024-11-21",
+      "category": "hardware",
+      "other_detail": "null",
+      "subtotal": 3256.0,
+      "tax": 162.8,
+      "stated_total": 3418.8,
+      "calculated_total": 3418.8,
+      "warranty_date": "null",
+      "confidence": {
+       "invoice_number": 0.95,
+       "vendor": 0.95,
+       "invoice_date": 0.95,
+       "category": 0.95,
+       "other_detail": 0.95,
+       "subtotal": 0.95,
+       "tax": 0.95,
+       "stated_total": 0.95,
+       "calculated_total": 0.95,
+       "warranty_date": 0.95
+      }
+     },
+     "issues": [
+      "warranty_date='null' is not a valid YYYY-MM-DD date."
+     ]
+    }
+   ]
+  },
+  "naive_retry_5x": {
+   "calls": 6,
+   "final_warranty_date": "null",
+   "history": [
+    {
+     "attempt": 1,
+     "prompt_tail": "<document>\nInvoice INV-2026-1002 from Northwind Supply, issued 21 November 2024. This covers: 5 x Item A at $474.00; 1 x Item B at $886.00. Purchase type: Hardware purchase. Subtotal comes to $3256.00, tax is $162.80, so the amount due is $3418.80. \n\n</document>",
+     "data": {
+      "invoice_number": "INV-2026-1002",
+      "vendor": "Northwind Supply",
+      "invoice_date": "2024-11-21",
+      "category": "hardware",
+      "other_detail": "null",
+      "subtotal": 3256.0,
+      "tax": 162.8,
+      "stated_total": 3418.8,
+      "calculated_total": 3418.8,
+      "warranty_date": "null",
+      "confidence": {
+       "invoice_number": 0.95,
+       "vendor": 0.95,
+       "invoice_date": 0.95,
+       "category": 0.95,
+       "other_detail": 0.95,
+       "subtotal": 0.95,
+       "tax": 0.95,
+       "stated_total": 0.95,
+       "calculated_total": 0.95,
+       "warranty_date": 0.95
+      }
+     },
+     "issues": [
+      "warranty_date='null' is not a valid YYYY-MM-DD date.",
+      "warranty_date='null' but the document never mentions 'warrant'. The information is absent from the source."
+     ]
+    },
+    {
+     "attempt": 2,
+     "prompt_tail": "\": 0.95, \"stated_total\": 0.95, \"calculated_total\": 0.95, \"warranty_date\": 0.95}}\n\nIt failed these checks:\n- warranty_date='null' is not a valid YYYY-MM-DD date.\n- warranty_date='null' but the document never mentions 'warrant'. The information is absent from the source.\n\nRe-read the document and call `extract` again. If the document itself contains the inconsistent numbers, keep the printed values.",
+     "data": {
+      "invoice_number": "INV-2026-1002",
+      "vendor": "Northwind Supply",
+      "invoice_date": "2024-11-21",
+      "category": "hardware",
+      "other_detail": "null",
+      "subtotal": 3256.0,
+      "tax": 162.8,
+      "stated_total": 3418.8,
+      "calculated_total": 3418.8,
+      "warranty_date": "null",
+      "confidence": {
+       "invoice_number": 0.95,
+       "vendor": 0.95,
+       "invoice_date": 0.95,
+       "category": 0.95,
+       "other_detail": 0.95,
+       "subtotal": 0.95,
+       "tax": 0.95,
+       "stated_total": 0.95,
+       "calculated_total": 0.95,
+       "warranty_date": 0.95
+      }
+     },
+     "issues": [
+      "warranty_date='null' is not a valid YYYY-MM-DD date.",
+      "warranty_date='null' but the document never mentions 'warrant'. The information is absent from the source."
+     ]
+    },
+    {
+     "attempt": 3,
+     "prompt_tail": "\": 0.95, \"stated_total\": 0.95, \"calculated_total\": 0.95, \"warranty_date\": 0.95}}\n\nIt failed these checks:\n- warranty_date='null' is not a valid YYYY-MM-DD date.\n- warranty_date='null' but the document never mentions 'warrant'. The information is absent from the source.\n\nRe-read the document and call `extract` again. If the document itself contains the inconsistent numbers, keep the printed values.",
+     "data": {
+      "invoice_number": "INV-2026-1002",
+      "vendor": "Northwind Supply",
+      "invoice_date": "2024-11-21",
+      "category": "hardware",
+      "other_detail": "null",
+      "subtotal": 3256.0,
+      "tax": 162.8,
+      "stated_total": 3418.8,
+      "calculated_total": 3418.8,
+      "warranty_date": "null",
+      "confidence": {
+       "invoice_number": 0.95,
+       "vendor": 0.95,
+       "invoice_date": 0.95,
+       "category": 0.95,
+       "other_detail": 0.95,
+       "subtotal": 0.95,
+       "tax": 0.95,
+       "stated_total": 0.95,
+       "calculated_total": 0.95,
+       "warranty_date": 0.95
+      }
+     },
+     "issues": [
+      "warranty_date='null' is not a valid YYYY-MM-DD date.",
+      "warranty_date='null' but the document never mentions 'warrant'. The information is absent from the source."
+     ]
+    },
+    {
+     "attempt": 4,
+     "prompt_tail": "\": 0.95, \"stated_total\": 0.95, \"calculated_total\": 0.95, \"warranty_date\": 0.95}}\n\nIt failed these checks:\n- warranty_date='null' is not a valid YYYY-MM-DD date.\n- warranty_date='null' but the document never mentions 'warrant'. The information is absent from the source.\n\nRe-read the document and call `extract` again. If the document itself contains the inconsistent numbers, keep the printed values.",
+     "data": {
+      "invoice_number": "INV-2026-1002",
+      "vendor": "Northwind Supply",
+      "invoice_date": "2024-11-21",
+      "category": "hardware",
+      "other_detail": "null",
+      "subtotal": 3256.0,
+      "tax": 162.8,
+      "stated_total": 3418.8,
+      "calculated_total": 3418.8,
+      "warranty_date": "null",
+      "confidence": {
+       "invoice_number": 0.95,
+       "vendor": 0.95,
+       "invoice_date": 0.95,
+       "category": 0.95,
+       "other_detail": 0.95,
+       "subtotal": 0.95,
+       "tax": 0.95,
+       "stated_total": 0.95,
+       "calculated_total": 0.95,
+       "warranty_date": 0.95
+      }
+     },
+     "issues": [
+      "warranty_date='null' is not a valid YYYY-MM-DD date.",
+      "warranty_date='null' but the document never mentions 'warrant'. The information is absent from the source."
+     ]
+    },
+    {
+     "attempt": 5,
+     "prompt_tail": "\": 0.95, \"stated_total\": 0.95, \"calculated_total\": 0.95, \"warranty_date\": 0.95}}\n\nIt failed these checks:\n- warranty_date='null' is not a valid YYYY-MM-DD date.\n- warranty_date='null' but the document never mentions 'warrant'. The information is absent from the source.\n\nRe-read the document and call `extract` again. If the document itself contains the inconsistent numbers, keep the printed values.",
+     "data": {
+      "invoice_number": "INV-2026-1002",
+      "vendor": "Northwind Supply",
+      "invoice_date": "2024-11-21",
+      "category": "hardware",
+      "other_detail": "null",
+      "subtotal": 3256.0,
+      "tax": 162.8,
+      "stated_total": 3418.8,
+      "calculated_total": 3418.8,
+      "warranty_date": "null",
+      "confidence": {
+       "invoice_number": 0.95,
+       "vendor": 0.95,
+       "invoice_date": 0.95,
+       "category": 0.95,
+       "other_detail": 0.95,
+       "subtotal": 0.95,
+       "tax": 0.95,
+       "stated_total": 0.95,
+       "calculated_total": 0.95,
+       "warranty_date": 0.95
+      }
+     },
+     "issues": [
+      "warranty_date='null' is not a valid YYYY-MM-DD date.",
+      "warranty_date='null' but the document never mentions 'warrant'. The information is absent from the source."
+     ]
+    },
+    {
+     "attempt": 6,
+     "prompt_tail": "\": 0.95, \"stated_total\": 0.95, \"calculated_total\": 0.95, \"warranty_date\": 0.95}}\n\nIt failed these checks:\n- warranty_date='null' is not a valid YYYY-MM-DD date.\n- warranty_date='null' but the document never mentions 'warrant'. The information is absent from the source.\n\nRe-read the document and call `extract` again. If the document itself contains the inconsistent numbers, keep the printed values.",
+     "data": {
+      "invoice_number": "INV-2026-1002",
+      "vendor": "Northwind Supply",
+      "invoice_date": "2024-11-21",
+      "category": "hardware",
+      "other_detail": "null",
+      "subtotal": 3256.0,
+      "tax": 162.8,
+      "stated_total": 3418.8,
+      "calculated_total": 3418.8,
+      "warranty_date": "null",
+      "confidence": {
+       "invoice_number": 0.95,
+       "vendor": 0.95,
+       "invoice_date": 0.95,
+       "category": 0.95,
+       "other_detail": 0.95,
+       "subtotal": 0.95,
+       "tax": 0.95,
+       "stated_total": 0.95,
+       "calculated_total": 0.95,
+       "warranty_date": 0.95
+      }
+     },
+     "issues": [
+      "warranty_date='null' is not a valid YYYY-MM-DD date.",
+      "warranty_date='null' but the document never mentions 'warrant'. The information is absent from the source."
+     ]
+    }
+   ]
+  },
+  "pipeline": {
+   "calls": 1,
+   "status": "accepted",
+   "final_warranty_date": null
+  }
+ },
+ {
+  "doc_id": "inv-003",
+  "truth_warranty_date": null,
+  "naive_no_grounding": {
+   "calls": 6,
+   "final_warranty_date": "null",
+   "history": [
+    {
+     "attempt": 1,
+     "prompt_tail": "<document>\nInvoice INV-2026-1003 from Harbor Labs, issued 18 March 2025. This covers: 2 x Item A at $87.00; 5 x Item B at $176.00. Purchase type: Travel expenses. Subtotal comes to $1054.00, tax is $84.32, so the amount due is $1138.32. \n\n</document>",
+     "data": {
+      "invoice_number": "INV-2026-1003",
+      "vendor": "Harbor Labs",
+      "invoice_date": "2025-03-18",
+      "category": "travel",
+      "other_detail": "null",
+      "subtotal": 1054.0,
+      "tax": 84.32,
+      "stated_total": 1138.32,
+      "calculated_total": 1138.32,
+      "warranty_date": "null",
+      "confidence": {
+       "invoice_number": 0.95,
+       "vendor": 0.95,
+       "invoice_date": 0.95,
+       "category": 0.95,
+       "other_detail": 0.95,
+       "subtotal": 0.95,
+       "tax": 0.95,
+       "stated_total": 0.95,
+       "calculated_total": 0.95,
+       "warranty_date": 0.95
+      }
+     },
+     "issues": [
+      "warranty_date='null' is not a valid YYYY-MM-DD date."
+     ]
+    },
+    {
+     "attempt": 2,
+     "prompt_tail": "\": 0.95, \"vendor\": 0.95, \"invoice_date\": 0.95, \"category\": 0.95, \"other_detail\": 0.95, \"subtotal\": 0.95, \"tax\": 0.95, \"stated_total\": 0.95, \"calculated_total\": 0.95, \"warranty_date\": 0.95}}\n\nIt failed these checks:\n- warranty_date='null' is not a valid YYYY-MM-DD date.\n\nRe-read the document and call `extract` again. If the document itself contains the inconsistent numbers, keep the printed values.",
+     "data": {
+      "invoice_number": "INV-2026-1003",
+      "vendor": "Harbor Labs",
+      "invoice_date": "2025-03-18",
+      "category": "travel",
+      "other_detail": "null",
+      "subtotal": 1054.0,
+      "tax": 84.32,
+      "stated_total": 1138.32,
+      "calculated_total": 1138.32,
+      "warranty_date": "null",
+      "confidence": {
+       "invoice_number": 0.95,
+       "vendor": 0.95,
+       "invoice_date": 0.95,
+       "category": 0.95,
+       "other_detail": 0.95,
+       "subtotal": 0.95,
+       "tax": 0.95,
+       "stated_total": 0.95,
+       "calculated_total": 0.95,
+       "warranty_date": 0.95
+      }
+     },
+     "issues": [
+      "warranty_date='null' is not a valid YYYY-MM-DD date."
+     ]
+    },
+    {
+     "attempt": 3,
+     "prompt_tail": "\": 0.95, \"vendor\": 0.95, \"invoice_date\": 0.95, \"category\": 0.95, \"other_detail\": 0.95, \"subtotal\": 0.95, \"tax\": 0.95, \"stated_total\": 0.95, \"calculated_total\": 0.95, \"warranty_date\": 0.95}}\n\nIt failed these checks:\n- warranty_date='null' is not a valid YYYY-MM-DD date.\n\nRe-read the document and call `extract` again. If the document itself contains the inconsistent numbers, keep the printed values.",
+     "data": {
+      "invoice_number": "INV-2026-1003",
+      "vendor": "Harbor Labs",
+      "invoice_date": "2025-03-18",
+      "category": "travel",
+      "other_detail": "null",
+      "subtotal": 1054.0,
+      "tax": 84.32,
+      "stated_total": 1138.32,
+      "calculated_total": 1138.32,
+      "warranty_date": "null",
+      "confidence": {
+       "invoice_number": 0.95,
+       "vendor": 0.95,
+       "invoice_date": 0.95,
+       "category": 0.95,
+       "other_detail": 0.95,
+       "subtotal": 0.95,
+       "tax": 0.95,
+       "stated_total": 0.95,
+       "calculated_total": 0.95,
+       "warranty_date": 0.95
+      }
+     },
+     "issues": [
+      "warranty_date='null' is not a valid YYYY-MM-DD date."
+     ]
+    },
+    {
+     "attempt": 4,
+     "prompt_tail": "\": 0.95, \"vendor\": 0.95, \"invoice_date\": 0.95, \"category\": 0.95, \"other_detail\": 0.95, \"subtotal\": 0.95, \"tax\": 0.95, \"stated_total\": 0.95, \"calculated_total\": 0.95, \"warranty_date\": 0.95}}\n\nIt failed these checks:\n- warranty_date='null' is not a valid YYYY-MM-DD date.\n\nRe-read the document and call `extract` again. If the document itself contains the inconsistent numbers, keep the printed values.",
+     "data": {
+      "invoice_number": "INV-2026-1003",
+      "vendor": "Harbor Labs",
+      "invoice_date": "2025-03-18",
+      "category": "travel",
+      "other_detail": "null",
+      "subtotal": 1054.0,
+      "tax": 84.32,
+      "stated_total": 1138.32,
+      "calculated_total": 1138.32,
+      "warranty_date": "null",
+      "confidence": {
+       "invoice_number": 0.95,
+       "vendor": 0.95,
+       "invoice_date": 0.95,
+       "category": 0.95,
+       "other_detail": 0.95,
+       "subtotal": 0.95,
+       "tax": 0.95,
+       "stated_total": 0.95,
+       "calculated_total": 0.95,
+       "warranty_date": 0.95
+      }
+     },
+     "issues": [
+      "warranty_date='null' is not a valid YYYY-MM-DD date."
+     ]
+    },
+    {
+     "attempt": 5,
+     "prompt_tail": "\": 0.95, \"vendor\": 0.95, \"invoice_date\": 0.95, \"category\": 0.95, \"other_detail\": 0.95, \"subtotal\": 0.95, \"tax\": 0.95, \"stated_total\": 0.95, \"calculated_total\": 0.95, \"warranty_date\": 0.95}}\n\nIt failed these checks:\n- warranty_date='null' is not a valid YYYY-MM-DD date.\n\nRe-read the document and call `extract` again. If the document itself contains the inconsistent numbers, keep the printed values.",
+     "data": {
+      "invoice_number": "INV-2026-1003",
+      "vendor": "Harbor Labs",
+      "invoice_date": "2025-03-18",
+      "category": "travel",
+      "other_detail": "null",
+      "subtotal": 1054.0,
+      "tax": 84.32,
+      "stated_total": 1138.32,
+      "calculated_total": 1138.32,
+      "warranty_date": "null",
+      "confidence": {
+       "invoice_number": 0.95,
+       "vendor": 0.95,
+       "invoice_date": 0.95,
+       "category": 0.95,
+       "other_detail": 0.95,
+       "subtotal": 0.95,
+       "tax": 0.95,
+       "stated_total": 0.95,
+       "calculated_total": 0.95,
+       "warranty_date": 0.95
+      }
+     },
+     "issues": [
+      "warranty_date='null' is not a valid YYYY-MM-DD date."
+     ]
+    },
+    {
+     "attempt": 6,
+     "prompt_tail": "\": 0.95, \"vendor\": 0.95, \"invoice_date\": 0.95, \"category\": 0.95, \"other_detail\": 0.95, \"subtotal\": 0.95, \"tax\": 0.95, \"stated_total\": 0.95, \"calculated_total\": 0.95, \"warranty_date\": 0.95}}\n\nIt failed these checks:\n- warranty_date='null' is not a valid YYYY-MM-DD date.\n\nRe-read the document and call `extract` again. If the document itself contains the inconsistent numbers, keep the printed values.",
+     "data": {
+      "invoice_number": "INV-2026-1003",
+      "vendor": "Harbor Labs",
+      "invoice_date": "2025-03-18",
+      "category": "travel",
+      "other_detail": "null",
+      "subtotal": 1054.0,
+      "tax": 84.32,
+      "stated_total": 1138.32,
+      "calculated_total": 1138.32,
+      "warranty_date": "null",
+      "confidence": {
+       "invoice_number": 0.95,
+       "vendor": 0.95,
+       "invoice_date": 0.95,
+       "category": 0.95,
+       "other_detail": 0.95,
+       "subtotal": 0.95,
+       "tax": 0.95,
+       "stated_total": 0.95,
+       "calculated_total": 0.95,
+       "warranty_date": 0.95
+      }
+     },
+     "issues": [
+      "warranty_date='null' is not a valid YYYY-MM-DD date."
+     ]
+    }
+   ]
+  },
+  "naive_retry_5x": {
+   "calls": 6,
+   "final_warranty_date": "null",
+   "history": [
+    {
+     "attempt": 1,
+     "prompt_tail": "<document>\nInvoice INV-2026-1003 from Harbor Labs, issued 18 March 2025. This covers: 2 x Item A at $87.00; 5 x Item B at $176.00. Purchase type: Travel expenses. Subtotal comes to $1054.00, tax is $84.32, so the amount due is $1138.32. \n\n</document>",
+     "data": {
+      "invoice_number": "INV-2026-1003",
+      "vendor": "Harbor Labs",
+      "invoice_date": "2025-03-18",
+      "category": "travel",
+      "other_detail": "null",
+      "subtotal": 1054.0,
+      "tax": 84.32,
+      "stated_total": 1138.32,
+      "calculated_total": 1138.32,
+      "warranty_date": "null",
+      "confidence": {
+       "invoice_number": 0.95,
+       "vendor": 0.95,
+       "invoice_date": 0.95,
+       "category": 0.95,
+       "other_detail": 0.95,
+       "subtotal": 0.95,
+       "tax": 0.95,
+       "stated_total": 0.95,
+       "calculated_total": 0.95,
+       "warranty_date": 0.95
+      }
+     },
+     "issues": [
+      "warranty_date='null' is not a valid YYYY-MM-DD date.",
+      "warranty_date='null' but the document never mentions 'warrant'. The information is absent from the source."
+     ]
+    },
+    {
+     "attempt": 2,
+     "prompt_tail": "\": 0.95, \"stated_total\": 0.95, \"calculated_total\": 0.95, \"warranty_date\": 0.95}}\n\nIt failed these checks:\n- warranty_date='null' is not a valid YYYY-MM-DD date.\n- warranty_date='null' but the document never mentions 'warrant'. The information is absent from the source.\n\nRe-read the document and call `extract` again. If the document itself contains the inconsistent numbers, keep the printed values.",
+     "data": {
+      "invoice_number": "INV-2026-1003",
+      "vendor": "Harbor Labs",
+      "invoice_date": "2025-03-18",
+      "category": "travel",
+      "other_detail": "null",
+      "subtotal": 1054.0,
+      "tax": 84.32,
+      "stated_total": 1138.32,
+      "calculated_total": 1138.32,
+      "warranty_date": "null",
+      "confidence": {
+       "invoice_number": 0.95,
+       "vendor": 0.95,
+       "invoice_date": 0.95,
+       "category": 0.95,
+       "other_detail": 0.95,
+       "subtotal": 0.95,
+       "tax": 0.95,
+       "stated_total": 0.95,
+       "calculated_total": 0.95,
+       "warranty_date": 0.95
+      }
+     },
+     "issues": [
+      "warranty_date='null' is not a valid YYYY-MM-DD date.",
+      "warranty_date='null' but the document never mentions 'warrant'. The information is absent from the source."
+     ]
+    },
+    {
+     "attempt": 3,
+     "prompt_tail": "\": 0.95, \"stated_total\": 0.95, \"calculated_total\": 0.95, \"warranty_date\": 0.95}}\n\nIt failed these checks:\n- warranty_date='null' is not a valid YYYY-MM-DD date.\n- warranty_date='null' but the document never mentions 'warrant'. The information is absent from the source.\n\nRe-read the document and call `extract` again. If the document itself contains the inconsistent numbers, keep the printed values.",
+     "data": {
+      "invoice_number": "INV-2026-1003",
+      "vendor": "Harbor Labs",
+      "invoice_date": "2025-03-18",
+      "category": "travel",
+      "other_detail": "null",
+      "subtotal": 1054.0,
+      "tax": 84.32,
+      "stated_total": 1138.32,
+      "calculated_total": 1138.32,
+      "warranty_date": "null",
+      "confidence": {
+       "invoice_number": 0.95,
+       "vendor": 0.95,
+       "invoice_date": 0.95,
+       "category": 0.95,
+       "other_detail": 0.95,
+       "subtotal": 0.95,
+       "tax": 0.95,
+       "stated_total": 0.95,
+       "calculated_total": 0.95,
+       "warranty_date": 0.95
+      }
+     },
+     "issues": [
+      "warranty_date='null' is not a valid YYYY-MM-DD date.",
+      "warranty_date='null' but the document never mentions 'warrant'. The information is absent from the source."
+     ]
+    },
+    {
+     "attempt": 4,
+     "prompt_tail": "\": 0.95, \"stated_total\": 0.95, \"calculated_total\": 0.95, \"warranty_date\": 0.95}}\n\nIt failed these checks:\n- warranty_date='null' is not a valid YYYY-MM-DD date.\n- warranty_date='null' but the document never mentions 'warrant'. The information is absent from the source.\n\nRe-read the document and call `extract` again. If the document itself contains the inconsistent numbers, keep the printed values.",
+     "data": {
+      "invoice_number": "INV-2026-1003",
+      "vendor": "Harbor Labs",
+      "invoice_date": "2025-03-18",
+      "category": "travel",
+      "other_detail": "null",
+      "subtotal": 1054.0,
+      "tax": 84.32,
+      "stated_total": 1138.32,
+      "calculated_total": 1138.32,
+      "warranty_date": "null",
+      "confidence": {
+       "invoice_number": 0.95,
+       "vendor": 0.95,
+       "invoice_date": 0.95,
+       "category": 0.95,
+       "other_detail": 0.95,
+       "subtotal": 0.95,
+       "tax": 0.95,
+       "stated_total": 0.95,
+       "calculated_total": 0.95,
+       "warranty_date": 0.95
+      }
+     },
+     "issues": [
+      "warranty_date='null' is not a valid YYYY-MM-DD date.",
+      "warranty_date='null' but the document never mentions 'warrant'. The information is absent from the source."
+     ]
+    },
+    {
+     "attempt": 5,
+     "prompt_tail": "\": 0.95, \"stated_total\": 0.95, \"calculated_total\": 0.95, \"warranty_date\": 0.95}}\n\nIt failed these checks:\n- warranty_date='null' is not a valid YYYY-MM-DD date.\n- warranty_date='null' but the document never mentions 'warrant'. The information is absent from the source.\n\nRe-read the document and call `extract` again. If the document itself contains the inconsistent numbers, keep the printed values.",
+     "data": {
+      "invoice_number": "INV-2026-1003",
+      "vendor": "Harbor Labs",
+      "invoice_date": "2025-03-18",
+      "category": "travel",
+      "other_detail": "null",
+      "subtotal": 1054.0,
+      "tax": 84.32,
+      "stated_total": 1138.32,
+      "calculated_total": 1138.32,
+      "warranty_date": "null",
+      "confidence": {
+       "invoice_number": 0.95,
+       "vendor": 0.95,
+       "invoice_date": 0.95,
+       "category": 0.95,
+       "other_detail": 0.95,
+       "subtotal": 0.95,
+       "tax": 0.95,
+       "stated_total": 0.95,
+       "calculated_total": 0.95,
+       "warranty_date": 0.95
+      }
+     },
+     "issues": [
+      "warranty_date='null' is not a valid YYYY-MM-DD date.",
+      "warranty_date='null' but the document never mentions 'warrant'. The information is absent from the source."
+     ]
+    },
+    {
+     "attempt": 6,
+     "prompt_tail": "\": 0.95, \"stated_total\": 0.95, \"calculated_total\": 0.95, \"warranty_date\": 0.95}}\n\nIt failed these checks:\n- warranty_date='null' is not a valid YYYY-MM-DD date.\n- warranty_date='null' but the document never mentions 'warrant'. The information is absent from the source.\n\nRe-read the document and call `extract` again. If the document itself contains the inconsistent numbers, keep the printed values.",
+     "data": {
+      "invoice_number": "INV-2026-1003",
+      "vendor": "Harbor Labs",
+      "invoice_date": "2025-03-18",
+      "category": "travel",
+      "other_detail": "null",
+      "subtotal": 1054.0,
+      "tax": 84.32,
+      "stated_total": 1138.32,
+      "calculated_total": 1138.32,
+      "warranty_date": "null",
+      "confidence": {
+       "invoice_number": 0.95,
+       "vendor": 0.95,
+       "invoice_date": 0.95,
+       "category": 0.95,
+       "other_detail": 0.95,
+       "subtotal": 0.95,
+       "tax": 0.95,
+       "stated_total": 0.95,
+       "calculated_total": 0.95,
+       "warranty_date": 0.95
+      }
+     },
+     "issues": [
+      "warranty_date='null' is not a valid YYYY-MM-DD date.",
+      "warranty_date='null' but the document never mentions 'warrant'. The information is absent from the source."
+     ]
+    }
+   ]
+  },
+  "pipeline": {
+   "calls": 1,
+   "status": "accepted",
+   "final_warranty_date": null
+  }
+ },
+ {
+  "doc_id": "inv-006",
+  "truth_warranty_date": null,
+  "naive_no_grounding": {
+   "calls": 6,
+   "final_warranty_date": "null",
+   "history": [
+    {
+     "attempt": 1,
+     "prompt_tail": "<document>\nInvoice INV-2026-1006 from Northwind Supply, issued 14 August 2024. This covers: 4 x Item A at $334.00; 5 x Item B at $114.00; 1 x Item C at $564.00; 4 x Item D at $208.00. Purchase type: Professional services. Subtotal comes to $3302.00, tax is $264.16, so the amount due is $3566.16. \n\n</document>",
+     "data": {
+      "invoice_number": "INV-2026-1006",
+      "vendor": "Northwind Supply",
+      "invoice_date": "2024-08-14",
+      "category": "services",
+      "other_detail": "null",
+      "subtotal": 3302.0,
+      "tax": 264.16,
+      "stated_total": 3566.16,
+      "calculated_total": 3566.16,
+      "warranty_date": "null",
+      "confidence": {
+       "invoice_number": 0.95,
+       "vendor": 0.95,
+       "invoice_date": 0.95,
+       "category": 0.95,
+       "other_detail": 0.95,
+       "subtotal": 0.95,
+       "tax": 0.95,
+       "stated_total": 0.95,
+       "calculated_total": 0.95,
+       "warranty_date": 0.95
+      }
+     },
+     "issues": [
+      "warranty_date='null' is not a valid YYYY-MM-DD date."
+     ]
+    },
+    {
+     "attempt": 2,
+     "prompt_tail": "\": 0.95, \"vendor\": 0.95, \"invoice_date\": 0.95, \"category\": 0.95, \"other_detail\": 0.95, \"subtotal\": 0.95, \"tax\": 0.95, \"stated_total\": 0.95, \"calculated_total\": 0.95, \"warranty_date\": 0.95}}\n\nIt failed these checks:\n- warranty_date='null' is not a valid YYYY-MM-DD date.\n\nRe-read the document and call `extract` again. If the document itself contains the inconsistent numbers, keep the printed values.",
+     "data": {
+      "invoice_number": "INV-2026-1006",
+      "vendor": "Northwind Supply",
+      "invoice_date": "2024-08-14",
+      "category": "services",
+      "other_detail": "null",
+      "subtotal": 3302.0,
+      "tax": 264.16,
+      "stated_total": 3566.16,
+      "calculated_total": 3566.16,
+      "warranty_date": "null",
+      "confidence": {
+       "invoice_number": 0.95,
+       "vendor": 0.95,
+       "invoice_date": 0.95,
+       "category": 0.95,
+       "other_detail": 0.95,
+       "subtotal": 0.95,
+       "tax": 0.95,
+       "stated_total": 0.95,
+       "calculated_total": 0.95,
+       "warranty_date": 0.95
+      }
+     },
+     "issues": [
+      "warranty_date='null' is not a valid YYYY-MM-DD date."
+     ]
+    },
+    {
+     "attempt": 3,
+     "prompt_tail": "\": 0.95, \"vendor\": 0.95, \"invoice_date\": 0.95, \"category\": 0.95, \"other_detail\": 0.95, \"subtotal\": 0.95, \"tax\": 0.95, \"stated_total\": 0.95, \"calculated_total\": 0.95, \"warranty_date\": 0.95}}\n\nIt failed these checks:\n- warranty_date='null' is not a valid YYYY-MM-DD date.\n\nRe-read the document and call `extract` again. If the document itself contains the inconsistent numbers, keep the printed values.",
+     "data": {
+      "invoice_number": "INV-2026-1006",
+      "vendor": "Northwind Supply",
+      "invoice_date": "2024-08-14",
+      "category": "services",
+      "other_detail": "null",
+      "subtotal": 3302.0,
+      "tax": 264.16,
+      "stated_total": 3566.16,
+      "calculated_total": 3566.16,
+      "warranty_date": "null",
+      "confidence": {
+       "invoice_number": 0.95,
+       "vendor": 0.95,
+       "invoice_date": 0.95,
+       "category": 0.95,
+       "other_detail": 0.95,
+       "subtotal": 0.95,
+       "tax": 0.95,
+       "stated_total": 0.95,
+       "calculated_total": 0.95,
+       "warranty_date": 0.95
+      }
+     },
+     "issues": [
+      "warranty_date='null' is not a valid YYYY-MM-DD date."
+     ]
+    },
+    {
+     "attempt": 4,
+     "prompt_tail": "\": 0.95, \"vendor\": 0.95, \"invoice_date\": 0.95, \"category\": 0.95, \"other_detail\": 0.95, \"subtotal\": 0.95, \"tax\": 0.95, \"stated_total\": 0.95, \"calculated_total\": 0.95, \"warranty_date\": 0.95}}\n\nIt failed these checks:\n- warranty_date='null' is not a valid YYYY-MM-DD date.\n\nRe-read the document and call `extract` again. If the document itself contains the inconsistent numbers, keep the printed values.",
+     "data": {
+      "invoice_number": "INV-2026-1006",
+      "vendor": "Northwind Supply",
+      "invoice_date": "2024-08-14",
+      "category": "services",
+      "other_detail": "null",
+      "subtotal": 3302.0,
+      "tax": 264.16,
+      "stated_total": 3566.16,
+      "calculated_total": 3566.16,
+      "warranty_date": "null",
+      "confidence": {
+       "invoice_number": 0.95,
+       "vendor": 0.95,
+       "invoice_date": 0.95,
+       "category": 0.95,
+       "other_detail": 0.95,
+       "subtotal": 0.95,
+       "tax": 0.95,
+       "stated_total": 0.95,
+       "calculated_total": 0.95,
+       "warranty_date": 0.95
+      }
+     },
+     "issues": [
+      "warranty_date='null' is not a valid YYYY-MM-DD date."
+     ]
+    },
+    {
+     "attempt": 5,
+     "prompt_tail": "\": 0.95, \"vendor\": 0.95, \"invoice_date\": 0.95, \"category\": 0.95, \"other_detail\": 0.95, \"subtotal\": 0.95, \"tax\": 0.95, \"stated_total\": 0.95, \"calculated_total\": 0.95, \"warranty_date\": 0.95}}\n\nIt failed these checks:\n- warranty_date='null' is not a valid YYYY-MM-DD date.\n\nRe-read the document and call `extract` again. If the document itself contains the inconsistent numbers, keep the printed values.",
+     "data": {
+      "invoice_number": "INV-2026-1006",
+      "vendor": "Northwind Supply",
+      "invoice_date": "2024-08-14",
+      "category": "services",
+      "other_detail": "null",
+      "subtotal": 3302.0,
+      "tax": 264.16,
+      "stated_total": 3566.16,
+      "calculated_total": 3566.16,
+      "warranty_date": "null",
+      "confidence": {
+       "invoice_number": 0.95,
+       "vendor": 0.95,
+       "invoice_date": 0.95,
+       "category": 0.95,
+       "other_detail": 0.95,
+       "subtotal": 0.95,
+       "tax": 0.95,
+       "stated_total": 0.95,
+       "calculated_total": 0.95,
+       "warranty_date": 0.95
+      }
+     },
+     "issues": [
+      "warranty_date='null' is not a valid YYYY-MM-DD date."
+     ]
+    },
+    {
+     "attempt": 6,
+     "prompt_tail": "\": 0.95, \"vendor\": 0.95, \"invoice_date\": 0.95, \"category\": 0.95, \"other_detail\": 0.95, \"subtotal\": 0.95, \"tax\": 0.95, \"stated_total\": 0.95, \"calculated_total\": 0.95, \"warranty_date\": 0.95}}\n\nIt failed these checks:\n- warranty_date='null' is not a valid YYYY-MM-DD date.\n\nRe-read the document and call `extract` again. If the document itself contains the inconsistent numbers, keep the printed values.",
+     "data": {
+      "invoice_number": "INV-2026-1006",
+      "vendor": "Northwind Supply",
+      "invoice_date": "2024-08-14",
+      "category": "services",
+      "other_detail": "null",
+      "subtotal": 3302.0,
+      "tax": 264.16,
+      "stated_total": 3566.16,
+      "calculated_total": 3566.16,
+      "warranty_date": "null",
+      "confidence": {
+       "invoice_number": 0.95,
+       "vendor": 0.95,
+       "invoice_date": 0.95,
+       "category": 0.95,
+       "other_detail": 0.95,
+       "subtotal": 0.95,
+       "tax": 0.95,
+       "stated_total": 0.95,
+       "calculated_total": 0.95,
+       "warranty_date": 0.95
+      }
+     },
+     "issues": [
+      "warranty_date='null' is not a valid YYYY-MM-DD date."
+     ]
+    }
+   ]
+  },
+  "naive_retry_5x": {
+   "calls": 6,
+   "final_warranty_date": "null",
+   "history": [
+    {
+     "attempt": 1,
+     "prompt_tail": "<document>\nInvoice INV-2026-1006 from Northwind Supply, issued 14 August 2024. This covers: 4 x Item A at $334.00; 5 x Item B at $114.00; 1 x Item C at $564.00; 4 x Item D at $208.00. Purchase type: Professional services. Subtotal comes to $3302.00, tax is $264.16, so the amount due is $3566.16. \n\n</document>",
+     "data": {
+      "invoice_number": "INV-2026-1006",
+      "vendor": "Northwind Supply",
+      "invoice_date": "2024-08-14",
+      "category": "services",
+      "other_detail": "null",
+      "subtotal": 3302.0,
+      "tax": 264.16,
+      "stated_total": 3566.16,
+      "calculated_total": 3566.16,
+      "warranty_date": "null",
+      "confidence": {
+       "invoice_number": 0.95,
+       "vendor": 0.95,
+       "invoice_date": 0.95,
+       "category": 0.95,
+       "other_detail": 0.95,
+       "subtotal": 0.95,
+       "tax": 0.95,
+       "stated_total": 0.95,
+       "calculated_total": 0.95,
+       "warranty_date": 0.95
+      }
+     },
+     "issues": [
+      "warranty_date='null' is not a valid YYYY-MM-DD date.",
+      "warranty_date='null' but the document never mentions 'warrant'. The information is absent from the source."
+     ]
+    },
+    {
+     "attempt": 2,
+     "prompt_tail": "\": 0.95, \"stated_total\": 0.95, \"calculated_total\": 0.95, \"warranty_date\": 0.95}}\n\nIt failed these checks:\n- warranty_date='null' is not a valid YYYY-MM-DD date.\n- warranty_date='null' but the document never mentions 'warrant'. The information is absent from the source.\n\nRe-read the document and call `extract` again. If the document itself contains the inconsistent numbers, keep the printed values.",
+     "data": {
+      "invoice_number": "INV-2026-1006",
+      "vendor": "Northwind Supply",
+      "invoice_date": "2024-08-14",
+      "category": "services",
+      "other_detail": "null",
+      "subtotal": 3302.0,
+      "tax": 264.16,
+      "stated_total": 3566.16,
+      "calculated_total": 3566.16,
+      "warranty_date": "null",
+      "confidence": {
+       "invoice_number": 0.95,
+       "vendor": 0.95,
+       "invoice_date": 0.95,
+       "category": 0.95,
+       "other_detail": 0.95,
+       "subtotal": 0.95,
+       "tax": 0.95,
+       "stated_total": 0.95,
+       "calculated_total": 0.95,
+       "warranty_date": 0.95
+      }
+     },
+     "issues": [
+      "warranty_date='null' is not a valid YYYY-MM-DD date.",
+      "warranty_date='null' but the document never mentions 'warrant'. The information is absent from the source."
+     ]
+    },
+    {
+     "attempt": 3,
+     "prompt_tail": "\": 0.95, \"stated_total\": 0.95, \"calculated_total\": 0.95, \"warranty_date\": 0.95}}\n\nIt failed these checks:\n- warranty_date='null' is not a valid YYYY-MM-DD date.\n- warranty_date='null' but the document never mentions 'warrant'. The information is absent from the source.\n\nRe-read the document and call `extract` again. If the document itself contains the inconsistent numbers, keep the printed values.",
+     "data": {
+      "invoice_number": "INV-2026-1006",
+      "vendor": "Northwind Supply",
+      "invoice_date": "2024-08-14",
+      "category": "services",
+      "other_detail": "null",
+      "subtotal": 3302.0,
+      "tax": 264.16,
+      "stated_total": 3566.16,
+      "calculated_total": 3566.16,
+      "warranty_date": "null",
+      "confidence": {
+       "invoice_number": 0.95,
+       "vendor": 0.95,
+       "invoice_date": 0.95,
+       "category": 0.95,
+       "other_detail": 0.95,
+       "subtotal": 0.95,
+       "tax": 0.95,
+       "stated_total": 0.95,
+       "calculated_total": 0.95,
+       "warranty_date": 0.95
+      }
+     },
+     "issues": [
+      "warranty_date='null' is not a valid YYYY-MM-DD date.",
+      "warranty_date='null' but the document never mentions 'warrant'. The information is absent from the source."
+     ]
+    },
+    {
+     "attempt": 4,
+     "prompt_tail": "\": 0.95, \"stated_total\": 0.95, \"calculated_total\": 0.95, \"warranty_date\": 0.95}}\n\nIt failed these checks:\n- warranty_date='null' is not a valid YYYY-MM-DD date.\n- warranty_date='null' but the document never mentions 'warrant'. The information is absent from the source.\n\nRe-read the document and call `extract` again. If the document itself contains the inconsistent numbers, keep the printed values.",
+     "data": {
+      "invoice_number": "INV-2026-1006",
+      "vendor": "Northwind Supply",
+      "invoice_date": "2024-08-14",
+      "category": "services",
+      "other_detail": "null",
+      "subtotal": 3302.0,
+      "tax": 264.16,
+      "stated_total": 3566.16,
+      "calculated_total": 3566.16,
+      "warranty_date": "null",
+      "confidence": {
+       "invoice_number": 0.95,
+       "vendor": 0.95,
+       "invoice_date": 0.95,
+       "category": 0.95,
+       "other_detail": 0.95,
+       "subtotal": 0.95,
+       "tax": 0.95,
+       "stated_total": 0.95,
+       "calculated_total": 0.95,
+       "warranty_date": 0.95
+      }
+     },
+     "issues": [
+      "warranty_date='null' is not a valid YYYY-MM-DD date.",
+      "warranty_date='null' but the document never mentions 'warrant'. The information is absent from the source."
+     ]
+    },
+    {
+     "attempt": 5,
+     "prompt_tail": "\": 0.95, \"stated_total\": 0.95, \"calculated_total\": 0.95, \"warranty_date\": 0.95}}\n\nIt failed these checks:\n- warranty_date='null' is not a valid YYYY-MM-DD date.\n- warranty_date='null' but the document never mentions 'warrant'. The information is absent from the source.\n\nRe-read the document and call `extract` again. If the document itself contains the inconsistent numbers, keep the printed values.",
+     "data": {
+      "invoice_number": "INV-2026-1006",
+      "vendor": "Northwind Supply",
+      "invoice_date": "2024-08-14",
+      "category": "services",
+      "other_detail": "null",
+      "subtotal": 3302.0,
+      "tax": 264.16,
+      "stated_total": 3566.16,
+      "calculated_total": 3566.16,
+      "warranty_date": "null",
+      "confidence": {
+       "invoice_number": 0.95,
+       "vendor": 0.95,
+       "invoice_date": 0.95,
+       "category": 0.95,
+       "other_detail": 0.95,
+       "subtotal": 0.95,
+       "tax": 0.95,
+       "stated_total": 0.95,
+       "calculated_total": 0.95,
+       "warranty_date": 0.95
+      }
+     },
+     "issues": [
+      "warranty_date='null' is not a valid YYYY-MM-DD date.",
+      "warranty_date='null' but the document never mentions 'warrant'. The information is absent from the source."
+     ]
+    },
+    {
+     "attempt": 6,
+     "prompt_tail": "\": 0.95, \"stated_total\": 0.95, \"calculated_total\": 0.95, \"warranty_date\": 0.95}}\n\nIt failed these checks:\n- warranty_date='null' is not a valid YYYY-MM-DD date.\n- warranty_date='null' but the document never mentions 'warrant'. The information is absent from the source.\n\nRe-read the document and call `extract` again. If the document itself contains the inconsistent numbers, keep the printed values.",
+     "data": {
+      "invoice_number": "INV-2026-1006",
+      "vendor": "Northwind Supply",
+      "invoice_date": "2024-08-14",
+      "category": "services",
+      "other_detail": "null",
+      "subtotal": 3302.0,
+      "tax": 264.16,
+      "stated_total": 3566.16,
+      "calculated_total": 3566.16,
+      "warranty_date": "null",
+      "confidence": {
+       "invoice_number": 0.95,
+       "vendor": 0.95,
+       "invoice_date": 0.95,
+       "category": 0.95,
+       "other_detail": 0.95,
+       "subtotal": 0.95,
+       "tax": 0.95,
+       "stated_total": 0.95,
+       "calculated_total": 0.95,
+       "warranty_date": 0.95
+      }
+     },
+     "issues": [
+      "warranty_date='null' is not a valid YYYY-MM-DD date.",
+      "warranty_date='null' but the document never mentions 'warrant'. The information is absent from the source."
+     ]
+    }
+   ]
+  },
+  "pipeline": {
+   "calls": 1,
+   "status": "accepted",
+   "final_warranty_date": null
+  }
+ }
+]

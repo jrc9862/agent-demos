@@ -1,0 +1,780 @@
+{
+ "con-010": {
+  "status": "succeeded",
+  "data": {
+   "parties": [
+    "Harbor Labs",
+    "Northwind Supply"
+   ],
+   "effective_date": "2025-08-25",
+   "term_months": 30,
+   "payment_due_days": 60,
+   "notice_days": 30,
+   "governing_law": null,
+   "auto_renew": true,
+   "confidence": {
+    "parties": 0.97,
+    "effective_date": 0.95,
+    "term_months": 0.9,
+    "payment_due_days": 0.93,
+    "notice_days": 0.95,
+    "governing_law": 0.9,
+    "auto_renew": 0.6
+   }
+  },
+  "doc_type": "contract"
+ },
+ "abs-007": {
+  "status": "succeeded",
+  "data": {
+   "title": "Effects of sleep duration and recall: a meta-analysis",
+   "authors": [
+    "Novak",
+    "Tanaka"
+   ],
+   "year": 2018,
+   "study_design": "meta_analysis",
+   "other_detail": null,
+   "sample_size": null,
+   "reference_count": 3,
+   "confidence": {
+    "title": 0.95,
+    "authors": 0.95,
+    "year": 0.95,
+    "study_design": 0.95,
+    "other_detail": 0.95,
+    "sample_size": 0.95,
+    "reference_count": 0.95
+   }
+  },
+  "doc_type": "abstract"
+ },
+ "inv-001": {
+  "status": "succeeded",
+  "data": {
+   "invoice_number": "INV-2026-1001",
+   "vendor": "Alder & Finch",
+   "invoice_date": "2025-10-02",
+   "category": "services",
+   "other_detail": null,
+   "subtotal": 2938.0,
+   "tax": 146.9,
+   "stated_total": 3084.9,
+   "calculated_total": 3084.9,
+   "warranty_date": "2028-07-03",
+   "confidence": {
+    "invoice_number": 0.95,
+    "vendor": 0.95,
+    "invoice_date": 0.95,
+    "category": 0.95,
+    "other_detail": 0.95,
+    "subtotal": 0.95,
+    "tax": 0.95,
+    "stated_total": 0.95,
+    "calculated_total": 0.95,
+    "warranty_date": 0.95
+   }
+  },
+  "doc_type": "invoice"
+ },
+ "abs-005": {
+  "status": "succeeded",
+  "data": {
+   "title": "Effects of sleep duration and recall: a cross-sectional survey",
+   "authors": [
+    "Osei",
+    "Marsh",
+    "Okafor"
+   ],
+   "year": 2022,
+   "study_design": "survey",
+   "other_detail": null,
+   "sample_size": 2776,
+   "reference_count": 3,
+   "confidence": {
+    "title": 0.95,
+    "authors": 0.95,
+    "year": 0.95,
+    "study_design": 0.93,
+    "other_detail": 0.95,
+    "sample_size": 0.95,
+    "reference_count": 0.95
+   }
+  },
+  "doc_type": "abstract"
+ },
+ "inv-003": {
+  "status": "succeeded",
+  "data": {
+   "invoice_number": "INV-2026-1003",
+   "vendor": "Harbor Labs",
+   "invoice_date": "2025-03-18",
+   "category": "travel",
+   "other_detail": null,
+   "subtotal": 1054.0,
+   "tax": 84.32,
+   "stated_total": 1138.32,
+   "calculated_total": 1138.32,
+   "warranty_date": null,
+   "confidence": {
+    "invoice_number": 0.95,
+    "vendor": 0.95,
+    "invoice_date": 0.95,
+    "category": 0.95,
+    "other_detail": 0.95,
+    "subtotal": 0.95,
+    "tax": 0.95,
+    "stated_total": 0.95,
+    "calculated_total": 0.95,
+    "warranty_date": 0.95
+   }
+  },
+  "doc_type": "invoice"
+ },
+ "abs-004": {
+  "status": "succeeded",
+  "data": {
+   "title": "Effects of dietary fibre and glucose: a prospective cohort study",
+   "authors": [
+    "Barros",
+    "Osei",
+    "Novak"
+   ],
+   "year": 2016,
+   "study_design": "cohort",
+   "other_detail": null,
+   "sample_size": 1200,
+   "reference_count": 3,
+   "confidence": {
+    "title": 0.95,
+    "authors": 0.95,
+    "year": 0.95,
+    "study_design": 0.95,
+    "other_detail": 0.95,
+    "sample_size": 0.95,
+    "reference_count": 0.95
+   }
+  },
+  "doc_type": "abstract"
+ },
+ "con-006": {
+  "status": "succeeded",
+  "data": {
+   "parties": [
+    "Meridian Works",
+    "Northwind Supply"
+   ],
+   "effective_date": "2025-02-26",
+   "term_months": 36,
+   "payment_due_days": 30,
+   "notice_days": null,
+   "governing_law": "Delaware",
+   "auto_renew": true,
+   "confidence": {
+    "parties": 0.95,
+    "effective_date": 0.95,
+    "term_months": 0.95,
+    "payment_due_days": 0.95,
+    "notice_days": 0.9,
+    "governing_law": 0.95,
+    "auto_renew": 0.95
+   }
+  },
+  "doc_type": "contract"
+ },
+ "abs-001": {
+  "status": "succeeded",
+  "data": {
+   "title": "Effects of dietary fibre and glucose: a prospective cohort study",
+   "authors": [
+    "Quinn"
+   ],
+   "year": 2025,
+   "study_design": "cohort",
+   "other_detail": null,
+   "sample_size": 3350,
+   "reference_count": 4,
+   "confidence": {
+    "title": 0.95,
+    "authors": 0.95,
+    "year": 0.95,
+    "study_design": 0.95,
+    "other_detail": 0.95,
+    "sample_size": 0.95,
+    "reference_count": 0.95
+   }
+  },
+  "doc_type": "abstract"
+ },
+ "inv-010": {
+  "status": "succeeded",
+  "data": {
+   "invoice_number": "INV-2026-1010",
+   "vendor": "Alder & Finch",
+   "invoice_date": "2025-11-13",
+   "category": "services",
+   "other_detail": null,
+   "subtotal": 4701.0,
+   "tax": 387.83,
+   "stated_total": 5088.83,
+   "calculated_total": 5088.83,
+   "warranty_date": "2027-03-08",
+   "confidence": {
+    "invoice_number": 0.95,
+    "vendor": 0.95,
+    "invoice_date": 0.95,
+    "category": 0.95,
+    "other_detail": 0.95,
+    "subtotal": 0.95,
+    "tax": 0.95,
+    "stated_total": 0.95,
+    "calculated_total": 0.95,
+    "warranty_date": 0.95
+   }
+  },
+  "doc_type": "invoice"
+ },
+ "con-003": {
+  "status": "succeeded",
+  "data": {
+   "parties": [
+    "Alder & Finch",
+    "Northwind Supply"
+   ],
+   "effective_date": "2025-09-28",
+   "term_months": 18,
+   "payment_due_days": 60,
+   "notice_days": 60,
+   "governing_law": null,
+   "auto_renew": null,
+   "confidence": {
+    "parties": 0.97,
+    "effective_date": 0.95,
+    "term_months": 0.97,
+    "payment_due_days": 0.96,
+    "notice_days": 0.96,
+    "governing_law": 0.9,
+    "auto_renew": 0.9
+   }
+  },
+  "doc_type": "contract"
+ },
+ "inv-004": {
+  "status": "succeeded",
+  "data": {
+   "invoice_number": "INV-2026-1004",
+   "vendor": "Northwind Supply",
+   "invoice_date": "2026-12-03",
+   "category": "other",
+   "other_detail": "equipment rental",
+   "subtotal": 3962.0,
+   "tax": 198.1,
+   "stated_total": 4160.1,
+   "calculated_total": 4160.1,
+   "warranty_date": null,
+   "confidence": {
+    "invoice_number": 0.95,
+    "vendor": 0.95,
+    "invoice_date": 0.95,
+    "category": 0.9,
+    "other_detail": 0.9,
+    "subtotal": 0.95,
+    "tax": 0.95,
+    "stated_total": 0.95,
+    "calculated_total": 0.95,
+    "warranty_date": 0.95
+   }
+  },
+  "doc_type": "invoice"
+ },
+ "abs-009": {
+  "status": "succeeded",
+  "data": {
+   "title": "Effects of urban tree cover and heat: a cross-sectional survey",
+   "authors": [
+    "Haddad"
+   ],
+   "year": 2015,
+   "study_design": "survey",
+   "other_detail": null,
+   "sample_size": 3460,
+   "reference_count": 6,
+   "confidence": {
+    "title": 0.95,
+    "authors": 0.95,
+    "year": 0.95,
+    "study_design": 0.95,
+    "other_detail": 0.95,
+    "sample_size": 0.95,
+    "reference_count": 0.95
+   }
+  },
+  "doc_type": "abstract"
+ },
+ "con-008": {
+  "status": "succeeded",
+  "data": {
+   "parties": [
+    "Tallgrass Co",
+    "Blue Heron Systems"
+   ],
+   "effective_date": "2025-04-01",
+   "term_months": 24,
+   "payment_due_days": 15,
+   "notice_days": 90,
+   "governing_law": null,
+   "auto_renew": null,
+   "confidence": {
+    "parties": 0.95,
+    "effective_date": 0.95,
+    "term_months": 0.95,
+    "payment_due_days": 0.95,
+    "notice_days": 0.95,
+    "governing_law": 0.9,
+    "auto_renew": 0.9
+   }
+  },
+  "doc_type": "contract"
+ },
+ "inv-006": {
+  "status": "succeeded",
+  "data": {
+   "invoice_number": "INV-2026-1006",
+   "vendor": "Northwind Supply",
+   "invoice_date": "2024-08-14",
+   "category": "services",
+   "other_detail": null,
+   "subtotal": 3302.0,
+   "tax": 264.16,
+   "stated_total": 3566.16,
+   "calculated_total": 3566.16,
+   "warranty_date": null,
+   "confidence": {
+    "invoice_number": 0.95,
+    "vendor": 0.95,
+    "invoice_date": 0.95,
+    "category": 0.95,
+    "other_detail": 0.95,
+    "subtotal": 0.95,
+    "tax": 0.95,
+    "stated_total": 0.95,
+    "calculated_total": 0.95,
+    "warranty_date": 0.95
+   }
+  },
+  "doc_type": "invoice"
+ },
+ "inv-005": {
+  "status": "succeeded",
+  "data": {
+   "invoice_number": "INV-2026-1005",
+   "vendor": "Alder & Finch",
+   "invoice_date": "2024-12-25",
+   "category": "travel",
+   "other_detail": null,
+   "subtotal": 7491.0,
+   "tax": 524.37,
+   "stated_total": 8015.37,
+   "calculated_total": 8015.37,
+   "warranty_date": "2028-09-16",
+   "confidence": {
+    "invoice_number": 0.95,
+    "vendor": 0.95,
+    "invoice_date": 0.95,
+    "category": 0.95,
+    "other_detail": 0.95,
+    "subtotal": 0.95,
+    "tax": 0.95,
+    "stated_total": 0.95,
+    "calculated_total": 0.95,
+    "warranty_date": 0.95
+   }
+  },
+  "doc_type": "invoice"
+ },
+ "con-009": {
+  "status": "succeeded",
+  "data": {
+   "parties": [
+    "Pinecrest Software",
+    "Northwind Supply"
+   ],
+   "effective_date": "2024-09-05",
+   "term_months": 24,
+   "payment_due_days": 30,
+   "notice_days": 60,
+   "governing_law": "Texas",
+   "auto_renew": null,
+   "confidence": {
+    "parties": 0.97,
+    "effective_date": 0.95,
+    "term_months": 0.95,
+    "payment_due_days": 0.95,
+    "notice_days": 0.95,
+    "governing_law": 0.97,
+    "auto_renew": 0.9
+   }
+  },
+  "doc_type": "contract"
+ },
+ "abs-006": {
+  "status": "succeeded",
+  "data": {
+   "title": "Effects of urban tree cover and heat: a meta-analysis",
+   "authors": [
+    "Lindqvist",
+    "Quinn"
+   ],
+   "year": 2018,
+   "study_design": "meta_analysis",
+   "other_detail": null,
+   "sample_size": null,
+   "reference_count": 3,
+   "confidence": {
+    "title": 0.95,
+    "authors": 0.95,
+    "year": 0.95,
+    "study_design": 0.95,
+    "other_detail": 0.95,
+    "sample_size": 0.95,
+    "reference_count": 0.95
+   }
+  },
+  "doc_type": "abstract"
+ },
+ "inv-002": {
+  "status": "succeeded",
+  "data": {
+   "invoice_number": "INV-2026-1002",
+   "vendor": "Northwind Supply",
+   "invoice_date": "2024-11-21",
+   "category": "hardware",
+   "other_detail": null,
+   "subtotal": 3256.0,
+   "tax": 162.8,
+   "stated_total": 3418.8,
+   "calculated_total": 3418.8,
+   "warranty_date": null,
+   "confidence": {
+    "invoice_number": 0.95,
+    "vendor": 0.95,
+    "invoice_date": 0.95,
+    "category": 0.95,
+    "other_detail": 0.95,
+    "subtotal": 0.95,
+    "tax": 0.95,
+    "stated_total": 0.95,
+    "calculated_total": 0.95,
+    "warranty_date": 0.95
+   }
+  },
+  "doc_type": "invoice"
+ },
+ "abs-008": {
+  "status": "succeeded",
+  "data": {
+   "title": "Effects of dietary fibre and glucose: a cross-sectional survey",
+   "authors": [
+    "Haddad"
+   ],
+   "year": 2018,
+   "study_design": "survey",
+   "other_detail": null,
+   "sample_size": 2015,
+   "reference_count": 6,
+   "confidence": {
+    "title": 0.95,
+    "authors": 0.95,
+    "year": 0.95,
+    "study_design": 0.95,
+    "other_detail": 0.95,
+    "sample_size": 0.9,
+    "reference_count": 0.95
+   }
+  },
+  "doc_type": "abstract"
+ },
+ "con-001": {
+  "status": "succeeded",
+  "data": {
+   "parties": [
+    "Harbor Labs",
+    "Alder & Finch"
+   ],
+   "effective_date": "2025-04-17",
+   "term_months": 36,
+   "payment_due_days": 30,
+   "notice_days": null,
+   "governing_law": "Oregon",
+   "auto_renew": null,
+   "confidence": {
+    "parties": 0.97,
+    "effective_date": 0.95,
+    "term_months": 0.93,
+    "payment_due_days": 0.95,
+    "notice_days": 0.9,
+    "governing_law": 0.97,
+    "auto_renew": 0.9
+   }
+  },
+  "doc_type": "contract"
+ },
+ "abs-003": {
+  "status": "succeeded",
+  "data": {
+   "title": "Effects of sleep duration and recall: a meta-analysis",
+   "authors": [
+    "Quinn"
+   ],
+   "year": 2023,
+   "study_design": "meta_analysis",
+   "other_detail": null,
+   "sample_size": null,
+   "reference_count": 3,
+   "confidence": {
+    "title": 0.95,
+    "authors": 0.95,
+    "year": 0.95,
+    "study_design": 0.95,
+    "other_detail": 0.95,
+    "sample_size": 0.95,
+    "reference_count": 0.95
+   }
+  },
+  "doc_type": "abstract"
+ },
+ "con-007": {
+  "status": "succeeded",
+  "data": {
+   "parties": [
+    "Tallgrass Co",
+    "Pinecrest Software"
+   ],
+   "effective_date": "2026-05-14",
+   "term_months": 36,
+   "payment_due_days": 45,
+   "notice_days": 60,
+   "governing_law": "Oregon",
+   "auto_renew": null,
+   "confidence": {
+    "parties": 0.95,
+    "effective_date": 0.95,
+    "term_months": 0.9,
+    "payment_due_days": 0.95,
+    "notice_days": 0.95,
+    "governing_law": 0.95,
+    "auto_renew": 0.5
+   }
+  },
+  "doc_type": "contract"
+ },
+ "con-005": {
+  "status": "succeeded",
+  "data": {
+   "parties": [
+    "Blue Heron Systems",
+    "Alder & Finch"
+   ],
+   "effective_date": "2026-06-06",
+   "term_months": 30,
+   "payment_due_days": 45,
+   "notice_days": null,
+   "governing_law": "Delaware",
+   "auto_renew": null,
+   "confidence": {
+    "parties": 0.97,
+    "effective_date": 0.95,
+    "term_months": 0.97,
+    "payment_due_days": 0.97,
+    "notice_days": 0.9,
+    "governing_law": 0.97,
+    "auto_renew": 0.9
+   }
+  },
+  "doc_type": "contract"
+ },
+ "abs-010": {
+  "status": "succeeded",
+  "data": {
+   "title": "Effects of sleep duration and recall: a cross-sectional survey",
+   "authors": [
+    "Reyes",
+    "Okafor"
+   ],
+   "year": 2019,
+   "study_design": "survey",
+   "other_detail": null,
+   "sample_size": null,
+   "reference_count": 5,
+   "confidence": {
+    "title": 0.95,
+    "authors": 0.95,
+    "year": 0.95,
+    "study_design": 0.95,
+    "other_detail": 0.95,
+    "sample_size": 0.95,
+    "reference_count": 0.95
+   }
+  },
+  "doc_type": "abstract"
+ },
+ "inv-009": {
+  "status": "succeeded",
+  "data": {
+   "invoice_number": "INV-2026-1009",
+   "vendor": "Meridian Works",
+   "invoice_date": "2025-02-06",
+   "category": "other",
+   "other_detail": "catering",
+   "subtotal": 1673.0,
+   "tax": 138.02,
+   "stated_total": 1811.02,
+   "calculated_total": 1811.02,
+   "warranty_date": null,
+   "confidence": {
+    "invoice_number": 0.95,
+    "vendor": 0.95,
+    "invoice_date": 0.95,
+    "category": 0.9,
+    "other_detail": 0.9,
+    "subtotal": 0.95,
+    "tax": 0.95,
+    "stated_total": 0.95,
+    "calculated_total": 0.95,
+    "warranty_date": 0.95
+   }
+  },
+  "doc_type": "invoice"
+ },
+ "inv-007": {
+  "status": "succeeded",
+  "data": {
+   "invoice_number": "INV-2026-1007",
+   "vendor": "Meridian Works",
+   "invoice_date": "2024-02-09",
+   "category": "software",
+   "other_detail": null,
+   "subtotal": 9880.0,
+   "tax": 815.1,
+   "stated_total": 10695.1,
+   "calculated_total": 10695.1,
+   "warranty_date": null,
+   "confidence": {
+    "invoice_number": 0.95,
+    "vendor": 0.95,
+    "invoice_date": 0.95,
+    "category": 0.95,
+    "other_detail": 0.95,
+    "subtotal": 0.95,
+    "tax": 0.95,
+    "stated_total": 0.95,
+    "calculated_total": 0.95,
+    "warranty_date": 0.95
+   }
+  },
+  "doc_type": "invoice"
+ },
+ "con-002": {
+  "status": "succeeded",
+  "data": {
+   "parties": [
+    "Alder & Finch",
+    "Tallgrass Co"
+   ],
+   "effective_date": "2025-06-02",
+   "term_months": 24,
+   "payment_due_days": 30,
+   "notice_days": null,
+   "governing_law": null,
+   "auto_renew": null,
+   "confidence": {
+    "parties": 0.95,
+    "effective_date": 0.95,
+    "term_months": 0.9,
+    "payment_due_days": 0.9,
+    "notice_days": 0.85,
+    "governing_law": 0.85,
+    "auto_renew": 0.85
+   }
+  },
+  "doc_type": "contract"
+ },
+ "con-004": {
+  "status": "succeeded",
+  "data": {
+   "parties": [
+    "Blue Heron Systems",
+    "Harbor Labs"
+   ],
+   "effective_date": "2024-06-11",
+   "term_months": 24,
+   "payment_due_days": 15,
+   "notice_days": 30,
+   "governing_law": "New York",
+   "auto_renew": null,
+   "confidence": {
+    "parties": 0.97,
+    "effective_date": 0.95,
+    "term_months": 0.93,
+    "payment_due_days": 0.95,
+    "notice_days": 0.95,
+    "governing_law": 0.96,
+    "auto_renew": 0.85
+   }
+  },
+  "doc_type": "contract"
+ },
+ "abs-002": {
+  "status": "succeeded",
+  "data": {
+   "title": "Effects of dietary fibre and glucose: a randomised controlled trial",
+   "authors": [
+    "Haddad"
+   ],
+   "year": 2016,
+   "study_design": "rct",
+   "other_detail": null,
+   "sample_size": 2311,
+   "reference_count": 3,
+   "confidence": {
+    "title": 0.95,
+    "authors": 0.95,
+    "year": 0.95,
+    "study_design": 0.95,
+    "other_detail": 0.95,
+    "sample_size": 0.95,
+    "reference_count": 0.95
+   }
+  },
+  "doc_type": "abstract"
+ },
+ "inv-008": {
+  "status": "unresolvable",
+  "data": {
+   "invoice_number": "INV-2026-1008",
+   "vendor": "Meridian Works",
+   "invoice_date": "2026-06-01",
+   "category": "software",
+   "other_detail": null,
+   "subtotal": 5791.0,
+   "tax": 477.76,
+   "stated_total": 6297.76,
+   "calculated_total": 6268.76,
+   "warranty_date": null,
+   "confidence": {
+    "invoice_number": 0.95,
+    "vendor": 0.95,
+    "invoice_date": 0.95,
+    "category": 0.95,
+    "other_detail": 0.95,
+    "subtotal": 0.95,
+    "tax": 0.85,
+    "stated_total": 0.6,
+    "calculated_total": 0.95,
+    "warranty_date": 0.95
+   }
+  },
+  "reason": "stated_total 6297.76 != subtotal 5791.00 + tax 477.76 = 6268.76.",
+  "doc_type": "invoice"
+ }
+}

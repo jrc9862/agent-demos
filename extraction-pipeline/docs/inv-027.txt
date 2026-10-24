@@ -1,0 +1,12 @@
+Blue Heron Systems
+INVOICE INV-2026-1027   Date: 2024-03-23
+Category: Professional services
+
+Item       Qty     Price
+Item A       2    478.00
+Item B       1    257.00
+
+Subtotal 1213.00
+Tax 97.04
+TOTAL 1310.04
+Warranty valid until 8 August 2027.

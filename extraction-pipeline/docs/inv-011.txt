@@ -1,0 +1,1 @@
+Invoice INV-2026-1011 from Tallgrass Co, issued 5 January 2025. This covers: 4 x Item A at $891.00; 5 x Item B at $226.00. Purchase type: Equipment rental. Subtotal comes to $4694.00, tax is $375.52, so the amount due is $5069.52. 

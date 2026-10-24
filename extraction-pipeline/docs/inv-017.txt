@@ -1,0 +1,14 @@
+Blue Heron Systems
+INVOICE INV-2026-1017   Date: 2024-09-16
+Category: Venue hire
+
+Item       Qty     Price
+Item A       2    667.00
+Item B       2    865.00
+Item C       2    877.00
+Item D       4    797.00
+
+Subtotal 8006.00
+Tax 560.42
+TOTAL 8566.42
+

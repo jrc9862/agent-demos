@@ -1,0 +1,152 @@
+{
+ "abs-001": {
+  "doc_type": "abstract",
+  "round1": "succeeded",
+  "final": "succeeded"
+ },
+ "abs-002": {
+  "doc_type": "abstract",
+  "round1": "succeeded",
+  "final": "succeeded"
+ },
+ "abs-003": {
+  "doc_type": "abstract",
+  "round1": "succeeded",
+  "final": "succeeded"
+ },
+ "abs-004": {
+  "doc_type": "abstract",
+  "round1": "succeeded",
+  "final": "succeeded"
+ },
+ "abs-005": {
+  "doc_type": "abstract",
+  "round1": "succeeded",
+  "final": "succeeded"
+ },
+ "abs-006": {
+  "doc_type": "abstract",
+  "round1": "succeeded",
+  "final": "succeeded"
+ },
+ "abs-007": {
+  "doc_type": "abstract",
+  "round1": "succeeded",
+  "final": "succeeded"
+ },
+ "abs-008": {
+  "doc_type": "abstract",
+  "round1": "succeeded",
+  "final": "succeeded"
+ },
+ "abs-009": {
+  "doc_type": "abstract",
+  "round1": "succeeded",
+  "final": "succeeded"
+ },
+ "abs-010": {
+  "doc_type": "abstract",
+  "round1": "succeeded",
+  "final": "succeeded"
+ },
+ "con-001": {
+  "doc_type": "contract",
+  "round1": "succeeded",
+  "final": "succeeded"
+ },
+ "con-002": {
+  "doc_type": "contract",
+  "round1": "succeeded",
+  "final": "succeeded"
+ },
+ "con-003": {
+  "doc_type": "contract",
+  "round1": "succeeded",
+  "final": "succeeded"
+ },
+ "con-004": {
+  "doc_type": "contract",
+  "round1": "succeeded",
+  "final": "succeeded"
+ },
+ "con-005": {
+  "doc_type": "contract",
+  "round1": "succeeded",
+  "final": "succeeded"
+ },
+ "con-006": {
+  "doc_type": "contract",
+  "round1": "succeeded",
+  "final": "succeeded"
+ },
+ "con-007": {
+  "doc_type": "contract",
+  "round1": "succeeded",
+  "final": "succeeded"
+ },
+ "con-008": {
+  "doc_type": "contract",
+  "round1": "succeeded",
+  "final": "succeeded"
+ },
+ "con-009": {
+  "doc_type": "contract",
+  "round1": "succeeded",
+  "final": "succeeded"
+ },
+ "con-010": {
+  "doc_type": "contract",
+  "round1": "succeeded",
+  "final": "succeeded"
+ },
+ "inv-001": {
+  "doc_type": "invoice",
+  "round1": "succeeded",
+  "final": "succeeded"
+ },
+ "inv-002": {
+  "doc_type": "invoice",
+  "round1": "succeeded",
+  "final": "succeeded"
+ },
+ "inv-003": {
+  "doc_type": "invoice",
+  "round1": "succeeded",
+  "final": "succeeded"
+ },
+ "inv-004": {
+  "doc_type": "invoice",
+  "round1": "succeeded",
+  "final": "succeeded"
+ },
+ "inv-005": {
+  "doc_type": "invoice",
+  "round1": "succeeded",
+  "final": "succeeded"
+ },
+ "inv-006": {
+  "doc_type": "invoice",
+  "round1": "succeeded",
+  "final": "succeeded"
+ },
+ "inv-007": {
+  "doc_type": "invoice",
+  "round1": "succeeded",
+  "final": "succeeded"
+ },
+ "inv-008": {
+  "doc_type": "invoice",
+  "round1": "resubmitted",
+  "final": "unresolvable"
+ },
+ "inv-009": {
+  "doc_type": "invoice",
+  "round1": "succeeded",
+  "final": "succeeded"
+ },
+ "inv-010": {
+  "doc_type": "invoice",
+  "round1": "succeeded",
+  "final": "succeeded"
+ }
+}

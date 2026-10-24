@@ -1,0 +1,14 @@
+Alder & Finch
+INVOICE INV-2026-1022   Date: 2024-05-17
+Category: Software licence
+
+Item       Qty     Price
+Item A       1    579.00
+Item B       2    484.00
+Item C       2    885.00
+Item D       2     68.00
+
+Subtotal 3453.00
+Tax 276.24
+TOTAL 3729.24
+

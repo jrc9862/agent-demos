@@ -1,0 +1,5 @@
+Subject: your invoice
+From: billing@harbor.example
+
+Hi, attaching INV-2026-1039 dated 27 May 2024 for travel expenses. Goods came to 8313.00 before tax; tax was 415.65; grand total 8728.65. Warranty valid until 13 January 2029.
+Thanks, Harbor Labs billing

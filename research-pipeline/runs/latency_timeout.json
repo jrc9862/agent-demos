@@ -1,0 +1,22 @@
+{
+ "mode": "parallel",
+ "tag": "timeout",
+ "wall_clock_s": 21.2,
+ "agent_calls": 4,
+ "agent_calls_per_response": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "max_concurrent_searches": 2,
+ "records": 5,
+ "gaps": [
+  {
+   "what": "office-vacancy-2025",
+   "errorCategory": "transient",
+   "message": "source office-vacancy-2025 timed out after 2.0s"
+  }
+ ],
+ "synthesizer_problems": []
+}

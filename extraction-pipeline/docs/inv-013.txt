@@ -1,0 +1,1 @@
+Invoice INV-2026-1013 from Northwind Supply, issued 20 June 2024. This covers: 2 x Item A at $108.00; 2 x Item B at $491.00. Purchase type: Travel expenses. Subtotal comes to $1198.00, tax is $83.86, so the amount due is $1281.86. Warranty valid until 18 March 2029.

@@ -1,0 +1,14 @@
+Blue Heron Systems
+INVOICE INV-2026-1016   Date: 2026-06-06
+Category: Equipment rental
+
+Item       Qty     Price
+Item A       1    250.00
+Item B       5    410.00
+Item C       2    746.00
+Item D       5     67.00
+
+Subtotal 4127.00
+Tax 330.16
+TOTAL 4436.16
+

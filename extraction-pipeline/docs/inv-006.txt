@@ -1,0 +1,1 @@
+Invoice INV-2026-1006 from Northwind Supply, issued 14 August 2024. This covers: 4 x Item A at $334.00; 5 x Item B at $114.00; 1 x Item C at $564.00; 4 x Item D at $208.00. Purchase type: Professional services. Subtotal comes to $3302.00, tax is $264.16, so the amount due is $3566.16. 

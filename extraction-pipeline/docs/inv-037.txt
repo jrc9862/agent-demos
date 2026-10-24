@@ -1,0 +1,5 @@
+Subject: your invoice
+From: billing@meridian.example
+
+Hi, attaching INV-2026-1037 dated 2 May 2026 for software licence. Goods came to 4191.00 before tax; tax was 293.37; grand total 4484.37. Warranty valid until 1 August 2028.
+Thanks, Meridian Works billing

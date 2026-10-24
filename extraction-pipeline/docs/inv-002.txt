@@ -1,0 +1,1 @@
+Invoice INV-2026-1002 from Northwind Supply, issued 21 November 2024. This covers: 5 x Item A at $474.00; 1 x Item B at $886.00. Purchase type: Hardware purchase. Subtotal comes to $3256.00, tax is $162.80, so the amount due is $3418.80. 

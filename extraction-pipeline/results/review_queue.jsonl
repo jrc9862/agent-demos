@@ -1,0 +1,4 @@
+{"doc_id": "con-010", "field": "auto_renew", "value": true, "confidence": 0.6, "reason": "confidence below 0.8"}
+{"doc_id": "con-007", "field": "auto_renew", "value": null, "confidence": 0.5, "reason": "confidence below 0.8"}
+{"doc_id": "inv-008", "field": "*", "reason": "unresolvable: stated_total 6297.76 != subtotal 5791.00 + tax 477.76 = 6268.76."}
+{"doc_id": "inv-008", "field": "stated_total", "value": 6297.76, "confidence": 0.6, "reason": "confidence below 0.8"}

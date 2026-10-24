@@ -1,0 +1,1 @@
+Invoice INV-2026-1004 from Northwind Supply, issued 3 December 2026. This covers: 5 x Item A at $624.00; 2 x Item B at $421.00. Purchase type: Equipment rental. Subtotal comes to $3962.00, tax is $198.10, so the amount due is $4160.10. 

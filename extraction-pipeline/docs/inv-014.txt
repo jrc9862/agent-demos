@@ -1,0 +1,1 @@
+Invoice INV-2026-1014 from Blue Heron Systems, issued 12 May 2026. This covers: 5 x Item A at $66.00; 1 x Item B at $252.00; 5 x Item C at $425.00. Purchase type: Software licence. Subtotal comes to $2707.00, tax is $189.49, so the amount due is $2896.49. 

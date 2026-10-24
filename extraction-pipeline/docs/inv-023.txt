@@ -1,0 +1,13 @@
+Pinecrest Software
+INVOICE INV-2026-1023   Date: 2026-03-18
+Category: Professional services
+
+Item       Qty     Price
+Item A       5    469.00
+Item B       2    102.00
+Item C       3    509.00
+
+Subtotal 4076.00
+Tax 336.27
+TOTAL 4412.27
+

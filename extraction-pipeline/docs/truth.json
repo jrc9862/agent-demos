@@ -1,0 +1,1736 @@
+{
+ "inv-001": {
+  "doc_type": "invoice",
+  "format": "narrative",
+  "held_out": false,
+  "fields": {
+   "invoice_number": "INV-2026-1001",
+   "vendor": "Alder & Finch",
+   "invoice_date": "2025-10-02",
+   "category": "services",
+   "other_detail": null,
+   "subtotal": 2938.0,
+   "tax": 146.9,
+   "stated_total": 3084.9,
+   "calculated_total": 3084.9,
+   "warranty_date": "2028-07-03"
+  },
+  "inconsistent": false
+ },
+ "inv-002": {
+  "doc_type": "invoice",
+  "format": "narrative",
+  "held_out": false,
+  "fields": {
+   "invoice_number": "INV-2026-1002",
+   "vendor": "Northwind Supply",
+   "invoice_date": "2024-11-21",
+   "category": "hardware",
+   "other_detail": null,
+   "subtotal": 3256.0,
+   "tax": 162.8,
+   "stated_total": 3418.8,
+   "calculated_total": 3418.8,
+   "warranty_date": null
+  },
+  "inconsistent": false
+ },
+ "inv-003": {
+  "doc_type": "invoice",
+  "format": "narrative",
+  "held_out": false,
+  "fields": {
+   "invoice_number": "INV-2026-1003",
+   "vendor": "Harbor Labs",
+   "invoice_date": "2025-03-18",
+   "category": "travel",
+   "other_detail": null,
+   "subtotal": 1054.0,
+   "tax": 84.32,
+   "stated_total": 1138.32,
+   "calculated_total": 1138.32,
+   "warranty_date": null
+  },
+  "inconsistent": false
+ },
+ "inv-004": {
+  "doc_type": "invoice",
+  "format": "narrative",
+  "held_out": false,
+  "fields": {
+   "invoice_number": "INV-2026-1004",
+   "vendor": "Northwind Supply",
+   "invoice_date": "2026-12-03",
+   "category": "other",
+   "other_detail": "equipment rental",
+   "subtotal": 3962.0,
+   "tax": 198.1,
+   "stated_total": 4160.1,
+   "calculated_total": 4160.1,
+   "warranty_date": null
+  },
+  "inconsistent": false
+ },
+ "inv-005": {
+  "doc_type": "invoice",
+  "format": "narrative",
+  "held_out": false,
+  "fields": {
+   "invoice_number": "INV-2026-1005",
+   "vendor": "Alder & Finch",
+   "invoice_date": "2024-12-25",
+   "category": "travel",
+   "other_detail": null,
+   "subtotal": 7491.0,
+   "tax": 524.37,
+   "stated_total": 8015.37,
+   "calculated_total": 8015.37,
+   "warranty_date": "2028-09-16"
+  },
+  "inconsistent": false
+ },
+ "inv-006": {
+  "doc_type": "invoice",
+  "format": "narrative",
+  "held_out": false,
+  "fields": {
+   "invoice_number": "INV-2026-1006",
+   "vendor": "Northwind Supply",
+   "invoice_date": "2024-08-14",
+   "category": "services",
+   "other_detail": null,
+   "subtotal": 3302.0,
+   "tax": 264.16,
+   "stated_total": 3566.16,
+   "calculated_total": 3566.16,
+   "warranty_date": null
+  },
+  "inconsistent": false
+ },
+ "inv-007": {
+  "doc_type": "invoice",
+  "format": "narrative",
+  "held_out": false,
+  "fields": {
+   "invoice_number": "INV-2026-1007",
+   "vendor": "Meridian Works",
+   "invoice_date": "2024-02-09",
+   "category": "software",
+   "other_detail": null,
+   "subtotal": 9880.0,
+   "tax": 815.1,
+   "stated_total": 10695.1,
+   "calculated_total": 10695.1,
+   "warranty_date": null
+  },
+  "inconsistent": false
+ },
+ "inv-008": {
+  "doc_type": "invoice",
+  "format": "narrative",
+  "held_out": false,
+  "fields": {
+   "invoice_number": "INV-2026-1008",
+   "vendor": "Meridian Works",
+   "invoice_date": "2026-06-01",
+   "category": "software",
+   "other_detail": null,
+   "subtotal": 5791.0,
+   "tax": 477.76,
+   "stated_total": 6297.76,
+   "calculated_total": 6268.76,
+   "warranty_date": null
+  },
+  "inconsistent": true
+ },
+ "inv-009": {
+  "doc_type": "invoice",
+  "format": "narrative",
+  "held_out": false,
+  "fields": {
+   "invoice_number": "INV-2026-1009",
+   "vendor": "Meridian Works",
+   "invoice_date": "2025-02-06",
+   "category": "other",
+   "other_detail": "catering",
+   "subtotal": 1673.0,
+   "tax": 138.02,
+   "stated_total": 1811.02,
+   "calculated_total": 1811.02,
+   "warranty_date": null
+  },
+  "inconsistent": false
+ },
+ "inv-010": {
+  "doc_type": "invoice",
+  "format": "narrative",
+  "held_out": false,
+  "fields": {
+   "invoice_number": "INV-2026-1010",
+   "vendor": "Alder & Finch",
+   "invoice_date": "2025-11-13",
+   "category": "services",
+   "other_detail": null,
+   "subtotal": 4701.0,
+   "tax": 387.83,
+   "stated_total": 5088.83,
+   "calculated_total": 5088.83,
+   "warranty_date": "2027-03-08"
+  },
+  "inconsistent": false
+ },
+ "inv-011": {
+  "doc_type": "invoice",
+  "format": "narrative",
+  "held_out": false,
+  "fields": {
+   "invoice_number": "INV-2026-1011",
+   "vendor": "Tallgrass Co",
+   "invoice_date": "2025-01-05",
+   "category": "other",
+   "other_detail": "equipment rental",
+   "subtotal": 4694.0,
+   "tax": 375.52,
+   "stated_total": 5069.52,
+   "calculated_total": 5069.52,
+   "warranty_date": null
+  },
+  "inconsistent": false
+ },
+ "inv-012": {
+  "doc_type": "invoice",
+  "format": "narrative",
+  "held_out": false,
+  "fields": {
+   "invoice_number": "INV-2026-1012",
+   "vendor": "Harbor Labs",
+   "invoice_date": "2025-07-13",
+   "category": "other",
+   "other_detail": "venue hire",
+   "subtotal": 3867.0,
+   "tax": 319.03,
+   "stated_total": 4186.03,
+   "calculated_total": 4186.03,
+   "warranty_date": null
+  },
+  "inconsistent": false
+ },
+ "inv-013": {
+  "doc_type": "invoice",
+  "format": "narrative",
+  "held_out": false,
+  "fields": {
+   "invoice_number": "INV-2026-1013",
+   "vendor": "Northwind Supply",
+   "invoice_date": "2024-06-20",
+   "category": "travel",
+   "other_detail": null,
+   "subtotal": 1198.0,
+   "tax": 83.86,
+   "stated_total": 1281.86,
+   "calculated_total": 1281.86,
+   "warranty_date": "2029-03-18"
+  },
+  "inconsistent": false
+ },
+ "inv-014": {
+  "doc_type": "invoice",
+  "format": "narrative",
+  "held_out": false,
+  "fields": {
+   "invoice_number": "INV-2026-1014",
+   "vendor": "Blue Heron Systems",
+   "invoice_date": "2026-05-12",
+   "category": "software",
+   "other_detail": null,
+   "subtotal": 2707.0,
+   "tax": 189.49,
+   "stated_total": 2896.49,
+   "calculated_total": 2896.49,
+   "warranty_date": null
+  },
+  "inconsistent": false
+ },
+ "inv-015": {
+  "doc_type": "invoice",
+  "format": "table",
+  "held_out": false,
+  "fields": {
+   "invoice_number": "INV-2026-1015",
+   "vendor": "Quill Freight",
+   "invoice_date": "2026-06-24",
+   "category": "software",
+   "other_detail": null,
+   "subtotal": 3747.0,
+   "tax": 187.35,
+   "stated_total": 3934.35,
+   "calculated_total": 3934.35,
+   "warranty_date": null
+  },
+  "inconsistent": false
+ },
+ "inv-016": {
+  "doc_type": "invoice",
+  "format": "table",
+  "held_out": false,
+  "fields": {
+   "invoice_number": "INV-2026-1016",
+   "vendor": "Blue Heron Systems",
+   "invoice_date": "2026-06-06",
+   "category": "other",
+   "other_detail": "equipment rental",
+   "subtotal": 4127.0,
+   "tax": 330.16,
+   "stated_total": 4436.16,
+   "calculated_total": 4457.16,
+   "warranty_date": null
+  },
+  "inconsistent": true
+ },
+ "inv-017": {
+  "doc_type": "invoice",
+  "format": "table",
+  "held_out": false,
+  "fields": {
+   "invoice_number": "INV-2026-1017",
+   "vendor": "Blue Heron Systems",
+   "invoice_date": "2024-09-16",
+   "category": "other",
+   "other_detail": "venue hire",
+   "subtotal": 8006.0,
+   "tax": 560.42,
+   "stated_total": 8566.42,
+   "calculated_total": 8566.42,
+   "warranty_date": null
+  },
+  "inconsistent": false
+ },
+ "inv-018": {
+  "doc_type": "invoice",
+  "format": "table",
+  "held_out": false,
+  "fields": {
+   "invoice_number": "INV-2026-1018",
+   "vendor": "Harbor Labs",
+   "invoice_date": "2026-06-12",
+   "category": "software",
+   "other_detail": null,
+   "subtotal": 4678.0,
+   "tax": 385.94,
+   "stated_total": 5063.94,
+   "calculated_total": 5063.94,
+   "warranty_date": "2027-08-07"
+  },
+  "inconsistent": false
+ },
+ "inv-019": {
+  "doc_type": "invoice",
+  "format": "table",
+  "held_out": false,
+  "fields": {
+   "invoice_number": "INV-2026-1019",
+   "vendor": "Harbor Labs",
+   "invoice_date": "2025-11-12",
+   "category": "services",
+   "other_detail": null,
+   "subtotal": 7216.0,
+   "tax": 360.8,
+   "stated_total": 7576.8,
+   "calculated_total": 7576.8,
+   "warranty_date": null
+  },
+  "inconsistent": false
+ },
+ "inv-020": {
+  "doc_type": "invoice",
+  "format": "table",
+  "held_out": false,
+  "fields": {
+   "invoice_number": "INV-2026-1020",
+   "vendor": "Harbor Labs",
+   "invoice_date": "2025-07-24",
+   "category": "software",
+   "other_detail": null,
+   "subtotal": 2410.0,
+   "tax": 198.83,
+   "stated_total": 2608.83,
+   "calculated_total": 2608.83,
+   "warranty_date": null
+  },
+  "inconsistent": false
+ },
+ "inv-021": {
+  "doc_type": "invoice",
+  "format": "table",
+  "held_out": false,
+  "fields": {
+   "invoice_number": "INV-2026-1021",
+   "vendor": "Blue Heron Systems",
+   "invoice_date": "2026-10-16",
+   "category": "hardware",
+   "other_detail": null,
+   "subtotal": 2774.0,
+   "tax": 194.18,
+   "stated_total": 2968.18,
+   "calculated_total": 2968.18,
+   "warranty_date": "2029-03-01"
+  },
+  "inconsistent": false
+ },
+ "inv-022": {
+  "doc_type": "invoice",
+  "format": "table",
+  "held_out": false,
+  "fields": {
+   "invoice_number": "INV-2026-1022",
+   "vendor": "Alder & Finch",
+   "invoice_date": "2024-05-17",
+   "category": "software",
+   "other_detail": null,
+   "subtotal": 3453.0,
+   "tax": 276.24,
+   "stated_total": 3729.24,
+   "calculated_total": 3729.24,
+   "warranty_date": null
+  },
+  "inconsistent": false
+ },
+ "inv-023": {
+  "doc_type": "invoice",
+  "format": "table",
+  "held_out": false,
+  "fields": {
+   "invoice_number": "INV-2026-1023",
+   "vendor": "Pinecrest Software",
+   "invoice_date": "2026-03-18",
+   "category": "services",
+   "other_detail": null,
+   "subtotal": 4076.0,
+   "tax": 336.27,
+   "stated_total": 4412.27,
+   "calculated_total": 4412.27,
+   "warranty_date": null
+  },
+  "inconsistent": false
+ },
+ "inv-024": {
+  "doc_type": "invoice",
+  "format": "table",
+  "held_out": false,
+  "fields": {
+   "invoice_number": "INV-2026-1024",
+   "vendor": "Meridian Works",
+   "invoice_date": "2026-01-11",
+   "category": "software",
+   "other_detail": null,
+   "subtotal": 2592.0,
+   "tax": 181.44,
+   "stated_total": 2785.44,
+   "calculated_total": 2773.44,
+   "warranty_date": null
+  },
+  "inconsistent": true
+ },
+ "inv-025": {
+  "doc_type": "invoice",
+  "format": "table",
+  "held_out": false,
+  "fields": {
+   "invoice_number": "INV-2026-1025",
+   "vendor": "Harbor Labs",
+   "invoice_date": "2026-01-25",
+   "category": "software",
+   "other_detail": null,
+   "subtotal": 2329.0,
+   "tax": 192.14,
+   "stated_total": 2521.14,
+   "calculated_total": 2521.14,
+   "warranty_date": null
+  },
+  "inconsistent": false
+ },
+ "inv-026": {
+  "doc_type": "invoice",
+  "format": "table",
+  "held_out": false,
+  "fields": {
+   "invoice_number": "INV-2026-1026",
+   "vendor": "Meridian Works",
+   "invoice_date": "2026-04-27",
+   "category": "other",
+   "other_detail": "equipment rental",
+   "subtotal": 8185.0,
+   "tax": 654.8,
+   "stated_total": 8839.8,
+   "calculated_total": 8839.8,
+   "warranty_date": "2027-07-15"
+  },
+  "inconsistent": false
+ },
+ "inv-027": {
+  "doc_type": "invoice",
+  "format": "table",
+  "held_out": false,
+  "fields": {
+   "invoice_number": "INV-2026-1027",
+   "vendor": "Blue Heron Systems",
+   "invoice_date": "2024-03-23",
+   "category": "services",
+   "other_detail": null,
+   "subtotal": 1213.0,
+   "tax": 97.04,
+   "stated_total": 1310.04,
+   "calculated_total": 1310.04,
+   "warranty_date": "2027-08-08"
+  },
+  "inconsistent": false
+ },
+ "inv-028": {
+  "doc_type": "invoice",
+  "format": "table",
+  "held_out": false,
+  "fields": {
+   "invoice_number": "INV-2026-1028",
+   "vendor": "Blue Heron Systems",
+   "invoice_date": "2025-07-07",
+   "category": "other",
+   "other_detail": "catering",
+   "subtotal": 3502.0,
+   "tax": 288.92,
+   "stated_total": 3790.92,
+   "calculated_total": 3790.92,
+   "warranty_date": null
+  },
+  "inconsistent": false
+ },
+ "inv-029": {
+  "doc_type": "invoice",
+  "format": "email",
+  "held_out": true,
+  "fields": {
+   "invoice_number": "INV-2026-1029",
+   "vendor": "Quill Freight",
+   "invoice_date": "2025-06-17",
+   "category": "other",
+   "other_detail": "venue hire",
+   "subtotal": 3785.0,
+   "tax": 189.25,
+   "stated_total": 3974.25,
+   "calculated_total": 3974.25,
+   "warranty_date": null
+  },
+  "inconsistent": false
+ },
+ "inv-030": {
+  "doc_type": "invoice",
+  "format": "email",
+  "held_out": true,
+  "fields": {
+   "invoice_number": "INV-2026-1030",
+   "vendor": "Pinecrest Software",
+   "invoice_date": "2024-03-09",
+   "category": "software",
+   "other_detail": null,
+   "subtotal": 605.0,
+   "tax": 48.4,
+   "stated_total": 653.4,
+   "calculated_total": 653.4,
+   "warranty_date": null
+  },
+  "inconsistent": false
+ },
+ "inv-031": {
+  "doc_type": "invoice",
+  "format": "email",
+  "held_out": true,
+  "fields": {
+   "invoice_number": "INV-2026-1031",
+   "vendor": "Pinecrest Software",
+   "invoice_date": "2024-05-02",
+   "category": "other",
+   "other_detail": "venue hire",
+   "subtotal": 7326.0,
+   "tax": 586.08,
+   "stated_total": 7912.08,
+   "calculated_total": 7912.08,
+   "warranty_date": null
+  },
+  "inconsistent": false
+ },
+ "inv-032": {
+  "doc_type": "invoice",
+  "format": "email",
+  "held_out": true,
+  "fields": {
+   "invoice_number": "INV-2026-1032",
+   "vendor": "Blue Heron Systems",
+   "invoice_date": "2024-08-01",
+   "category": "software",
+   "other_detail": null,
+   "subtotal": 1924.0,
+   "tax": 134.68,
+   "stated_total": 2037.68,
+   "calculated_total": 2058.68,
+   "warranty_date": null
+  },
+  "inconsistent": true
+ },
+ "inv-033": {
+  "doc_type": "invoice",
+  "format": "email",
+  "held_out": true,
+  "fields": {
+   "invoice_number": "INV-2026-1033",
+   "vendor": "Alder & Finch",
+   "invoice_date": "2025-01-06",
+   "category": "travel",
+   "other_detail": null,
+   "subtotal": 1743.0,
+   "tax": 122.01,
+   "stated_total": 1865.01,
+   "calculated_total": 1865.01,
+   "warranty_date": null
+  },
+  "inconsistent": false
+ },
+ "inv-034": {
+  "doc_type": "invoice",
+  "format": "email",
+  "held_out": true,
+  "fields": {
+   "invoice_number": "INV-2026-1034",
+   "vendor": "Northwind Supply",
+   "invoice_date": "2025-01-01",
+   "category": "other",
+   "other_detail": "venue hire",
+   "subtotal": 6100.0,
+   "tax": 305.0,
+   "stated_total": 6405.0,
+   "calculated_total": 6405.0,
+   "warranty_date": null
+  },
+  "inconsistent": false
+ },
+ "inv-035": {
+  "doc_type": "invoice",
+  "format": "email",
+  "held_out": true,
+  "fields": {
+   "invoice_number": "INV-2026-1035",
+   "vendor": "Alder & Finch",
+   "invoice_date": "2026-05-23",
+   "category": "other",
+   "other_detail": "equipment rental",
+   "subtotal": 7000.0,
+   "tax": 577.5,
+   "stated_total": 7577.5,
+   "calculated_total": 7577.5,
+   "warranty_date": null
+  },
+  "inconsistent": false
+ },
+ "inv-036": {
+  "doc_type": "invoice",
+  "format": "email",
+  "held_out": true,
+  "fields": {
+   "invoice_number": "INV-2026-1036",
+   "vendor": "Quill Freight",
+   "invoice_date": "2024-02-21",
+   "category": "services",
+   "other_detail": null,
+   "subtotal": 1193.0,
+   "tax": 83.51,
+   "stated_total": 1276.51,
+   "calculated_total": 1276.51,
+   "warranty_date": null
+  },
+  "inconsistent": false
+ },
+ "inv-037": {
+  "doc_type": "invoice",
+  "format": "email",
+  "held_out": true,
+  "fields": {
+   "invoice_number": "INV-2026-1037",
+   "vendor": "Meridian Works",
+   "invoice_date": "2026-05-02",
+   "category": "software",
+   "other_detail": null,
+   "subtotal": 4191.0,
+   "tax": 293.37,
+   "stated_total": 4484.37,
+   "calculated_total": 4484.37,
+   "warranty_date": "2028-08-01"
+  },
+  "inconsistent": false
+ },
+ "inv-038": {
+  "doc_type": "invoice",
+  "format": "email",
+  "held_out": true,
+  "fields": {
+   "invoice_number": "INV-2026-1038",
+   "vendor": "Blue Heron Systems",
+   "invoice_date": "2025-03-01",
+   "category": "services",
+   "other_detail": null,
+   "subtotal": 3026.0,
+   "tax": 211.82,
+   "stated_total": 3237.82,
+   "calculated_total": 3237.82,
+   "warranty_date": null
+  },
+  "inconsistent": false
+ },
+ "inv-039": {
+  "doc_type": "invoice",
+  "format": "email",
+  "held_out": true,
+  "fields": {
+   "invoice_number": "INV-2026-1039",
+   "vendor": "Harbor Labs",
+   "invoice_date": "2024-05-27",
+   "category": "travel",
+   "other_detail": null,
+   "subtotal": 8313.0,
+   "tax": 415.65,
+   "stated_total": 8728.65,
+   "calculated_total": 8728.65,
+   "warranty_date": "2029-01-13"
+  },
+  "inconsistent": false
+ },
+ "inv-040": {
+  "doc_type": "invoice",
+  "format": "email",
+  "held_out": true,
+  "fields": {
+   "invoice_number": "INV-2026-1040",
+   "vendor": "Quill Freight",
+   "invoice_date": "2026-08-05",
+   "category": "software",
+   "other_detail": null,
+   "subtotal": 5209.0,
+   "tax": 364.63,
+   "stated_total": 5598.63,
+   "calculated_total": 5573.63,
+   "warranty_date": null
+  },
+  "inconsistent": true
+ },
+ "abs-001": {
+  "doc_type": "abstract",
+  "format": "inline",
+  "held_out": false,
+  "fields": {
+   "title": "Effects of dietary fibre and glucose: a prospective cohort study",
+   "authors": [
+    "Quinn"
+   ],
+   "year": 2025,
+   "study_design": "cohort",
+   "other_detail": null,
+   "sample_size": 3350,
+   "reference_count": 4
+  }
+ },
+ "abs-002": {
+  "doc_type": "abstract",
+  "format": "inline",
+  "held_out": false,
+  "fields": {
+   "title": "Effects of dietary fibre and glucose: a randomised controlled trial",
+   "authors": [
+    "Haddad"
+   ],
+   "year": 2016,
+   "study_design": "rct",
+   "other_detail": null,
+   "sample_size": 2311,
+   "reference_count": 3
+  }
+ },
+ "abs-003": {
+  "doc_type": "abstract",
+  "format": "inline",
+  "held_out": false,
+  "fields": {
+   "title": "Effects of sleep duration and recall: a meta-analysis",
+   "authors": [
+    "Quinn"
+   ],
+   "year": 2023,
+   "study_design": "meta_analysis",
+   "other_detail": null,
+   "sample_size": null,
+   "reference_count": 3
+  }
+ },
+ "abs-004": {
+  "doc_type": "abstract",
+  "format": "inline",
+  "held_out": false,
+  "fields": {
+   "title": "Effects of dietary fibre and glucose: a prospective cohort study",
+   "authors": [
+    "Barros",
+    "Osei",
+    "Novak"
+   ],
+   "year": 2016,
+   "study_design": "cohort",
+   "other_detail": null,
+   "sample_size": 1200,
+   "reference_count": 3
+  }
+ },
+ "abs-005": {
+  "doc_type": "abstract",
+  "format": "inline",
+  "held_out": false,
+  "fields": {
+   "title": "Effects of sleep duration and recall: a cross-sectional survey",
+   "authors": [
+    "Osei",
+    "Marsh",
+    "Okafor"
+   ],
+   "year": 2022,
+   "study_design": "survey",
+   "other_detail": null,
+   "sample_size": 2776,
+   "reference_count": 3
+  }
+ },
+ "abs-006": {
+  "doc_type": "abstract",
+  "format": "inline",
+  "held_out": false,
+  "fields": {
+   "title": "Effects of urban tree cover and heat: a meta-analysis",
+   "authors": [
+    "Lindqvist",
+    "Quinn"
+   ],
+   "year": 2018,
+   "study_design": "meta_analysis",
+   "other_detail": null,
+   "sample_size": null,
+   "reference_count": 3
+  }
+ },
+ "abs-007": {
+  "doc_type": "abstract",
+  "format": "inline",
+  "held_out": false,
+  "fields": {
+   "title": "Effects of sleep duration and recall: a meta-analysis",
+   "authors": [
+    "Novak",
+    "Tanaka"
+   ],
+   "year": 2018,
+   "study_design": "meta_analysis",
+   "other_detail": null,
+   "sample_size": null,
+   "reference_count": 3
+  }
+ },
+ "abs-008": {
+  "doc_type": "abstract",
+  "format": "inline",
+  "held_out": false,
+  "fields": {
+   "title": "Effects of dietary fibre and glucose: a cross-sectional survey",
+   "authors": [
+    "Haddad"
+   ],
+   "year": 2018,
+   "study_design": "survey",
+   "other_detail": null,
+   "sample_size": 2015,
+   "reference_count": 6
+  }
+ },
+ "abs-009": {
+  "doc_type": "abstract",
+  "format": "inline",
+  "held_out": false,
+  "fields": {
+   "title": "Effects of urban tree cover and heat: a cross-sectional survey",
+   "authors": [
+    "Haddad"
+   ],
+   "year": 2015,
+   "study_design": "survey",
+   "other_detail": null,
+   "sample_size": 3460,
+   "reference_count": 6
+  }
+ },
+ "abs-010": {
+  "doc_type": "abstract",
+  "format": "inline",
+  "held_out": false,
+  "fields": {
+   "title": "Effects of sleep duration and recall: a cross-sectional survey",
+   "authors": [
+    "Reyes",
+    "Okafor"
+   ],
+   "year": 2019,
+   "study_design": "survey",
+   "other_detail": null,
+   "sample_size": null,
+   "reference_count": 5
+  }
+ },
+ "abs-011": {
+  "doc_type": "abstract",
+  "format": "inline",
+  "held_out": false,
+  "fields": {
+   "title": "Effects of noise exposure and hearing: a meta-analysis",
+   "authors": [
+    "Quinn",
+    "Tanaka",
+    "Lindqvist"
+   ],
+   "year": 2015,
+   "study_design": "meta_analysis",
+   "other_detail": null,
+   "sample_size": null,
+   "reference_count": 6
+  }
+ },
+ "abs-012": {
+  "doc_type": "abstract",
+  "format": "inline",
+  "held_out": false,
+  "fields": {
+   "title": "Effects of remote work and attention: a cross-sectional survey",
+   "authors": [
+    "Reyes",
+    "Novak"
+   ],
+   "year": 2025,
+   "study_design": "survey",
+   "other_detail": null,
+   "sample_size": 2306,
+   "reference_count": 6
+  }
+ },
+ "abs-013": {
+  "doc_type": "abstract",
+  "format": "bibliography",
+  "held_out": false,
+  "fields": {
+   "title": "Effects of remote work and attention: a meta-analysis",
+   "authors": [
+    "Quinn"
+   ],
+   "year": 2018,
+   "study_design": "meta_analysis",
+   "other_detail": null,
+   "sample_size": null,
+   "reference_count": 3
+  }
+ },
+ "abs-014": {
+  "doc_type": "abstract",
+  "format": "bibliography",
+  "held_out": false,
+  "fields": {
+   "title": "Effects of dietary fibre and glucose: a cross-sectional survey",
+   "authors": [
+    "Tanaka",
+    "Okafor",
+    "Novak"
+   ],
+   "year": 2021,
+   "study_design": "survey",
+   "other_detail": null,
+   "sample_size": 884,
+   "reference_count": 6
+  }
+ },
+ "abs-015": {
+  "doc_type": "abstract",
+  "format": "bibliography",
+  "held_out": false,
+  "fields": {
+   "title": "Effects of noise exposure and hearing: a cross-sectional survey",
+   "authors": [
+    "Novak"
+   ],
+   "year": 2021,
+   "study_design": "survey",
+   "other_detail": null,
+   "sample_size": 3931,
+   "reference_count": 5
+  }
+ },
+ "abs-016": {
+  "doc_type": "abstract",
+  "format": "bibliography",
+  "held_out": false,
+  "fields": {
+   "title": "Effects of remote work and attention: a meta-analysis",
+   "authors": [
+    "Barros",
+    "Osei",
+    "Tanaka"
+   ],
+   "year": 2016,
+   "study_design": "meta_analysis",
+   "other_detail": null,
+   "sample_size": null,
+   "reference_count": 4
+  }
+ },
+ "abs-017": {
+  "doc_type": "abstract",
+  "format": "bibliography",
+  "held_out": false,
+  "fields": {
+   "title": "Effects of sleep duration and recall: a randomised controlled trial",
+   "authors": [
+    "Tanaka"
+   ],
+   "year": 2024,
+   "study_design": "rct",
+   "other_detail": null,
+   "sample_size": 1268,
+   "reference_count": 4
+  }
+ },
+ "abs-018": {
+  "doc_type": "abstract",
+  "format": "bibliography",
+  "held_out": false,
+  "fields": {
+   "title": "Effects of tutoring and exam scores: a qualitative interview study",
+   "authors": [
+    "Tanaka",
+    "Novak",
+    "Reyes"
+   ],
+   "year": 2018,
+   "study_design": "other",
+   "other_detail": "qualitative interview study",
+   "sample_size": null,
+   "reference_count": 5
+  }
+ },
+ "abs-019": {
+  "doc_type": "abstract",
+  "format": "bibliography",
+  "held_out": false,
+  "fields": {
+   "title": "Effects of remote work and attention: a randomised controlled trial",
+   "authors": [
+    "Reyes",
+    "Okafor"
+   ],
+   "year": 2015,
+   "study_design": "rct",
+   "other_detail": null,
+   "sample_size": 2786,
+   "reference_count": 6
+  }
+ },
+ "abs-020": {
+  "doc_type": "abstract",
+  "format": "bibliography",
+  "held_out": false,
+  "fields": {
+   "title": "Effects of noise exposure and hearing: a meta-analysis",
+   "authors": [
+    "Okafor"
+   ],
+   "year": 2019,
+   "study_design": "meta_analysis",
+   "other_detail": null,
+   "sample_size": null,
+   "reference_count": 3
+  }
+ },
+ "abs-021": {
+  "doc_type": "abstract",
+  "format": "bibliography",
+  "held_out": false,
+  "fields": {
+   "title": "Effects of sleep duration and recall: a meta-analysis",
+   "authors": [
+    "Reyes"
+   ],
+   "year": 2019,
+   "study_design": "meta_analysis",
+   "other_detail": null,
+   "sample_size": null,
+   "reference_count": 6
+  }
+ },
+ "abs-022": {
+  "doc_type": "abstract",
+  "format": "bibliography",
+  "held_out": false,
+  "fields": {
+   "title": "Effects of dietary fibre and glucose: a meta-analysis",
+   "authors": [
+    "Okafor"
+   ],
+   "year": 2017,
+   "study_design": "meta_analysis",
+   "other_detail": null,
+   "sample_size": null,
+   "reference_count": 6
+  }
+ },
+ "abs-023": {
+  "doc_type": "abstract",
+  "format": "bibliography",
+  "held_out": false,
+  "fields": {
+   "title": "Effects of sleep duration and recall: a cross-sectional survey",
+   "authors": [
+    "Barros",
+    "Marsh"
+   ],
+   "year": 2016,
+   "study_design": "survey",
+   "other_detail": null,
+   "sample_size": null,
+   "reference_count": 3
+  }
+ },
+ "abs-024": {
+  "doc_type": "abstract",
+  "format": "bibliography",
+  "held_out": false,
+  "fields": {
+   "title": "Effects of noise exposure and hearing: a cross-sectional survey",
+   "authors": [
+    "Novak",
+    "Lindqvist"
+   ],
+   "year": 2015,
+   "study_design": "survey",
+   "other_detail": null,
+   "sample_size": 1550,
+   "reference_count": 6
+  }
+ },
+ "abs-025": {
+  "doc_type": "abstract",
+  "format": "sources",
+  "held_out": true,
+  "fields": {
+   "title": "Effects of remote work and attention: a meta-analysis",
+   "authors": [
+    "Okafor"
+   ],
+   "year": 2019,
+   "study_design": "meta_analysis",
+   "other_detail": null,
+   "sample_size": null,
+   "reference_count": 3
+  }
+ },
+ "abs-026": {
+  "doc_type": "abstract",
+  "format": "sources",
+  "held_out": true,
+  "fields": {
+   "title": "Effects of noise exposure and hearing: a cross-sectional survey",
+   "authors": [
+    "Haddad",
+    "Reyes",
+    "Quinn"
+   ],
+   "year": 2015,
+   "study_design": "survey",
+   "other_detail": null,
+   "sample_size": 3777,
+   "reference_count": 3
+  }
+ },
+ "abs-027": {
+  "doc_type": "abstract",
+  "format": "sources",
+  "held_out": true,
+  "fields": {
+   "title": "Effects of remote work and attention: a cross-sectional survey",
+   "authors": [
+    "Barros",
+    "Marsh"
+   ],
+   "year": 2022,
+   "study_design": "survey",
+   "other_detail": null,
+   "sample_size": null,
+   "reference_count": 5
+  }
+ },
+ "abs-028": {
+  "doc_type": "abstract",
+  "format": "sources",
+  "held_out": true,
+  "fields": {
+   "title": "Effects of sleep duration and recall: a meta-analysis",
+   "authors": [
+    "Tanaka"
+   ],
+   "year": 2021,
+   "study_design": "meta_analysis",
+   "other_detail": null,
+   "sample_size": null,
+   "reference_count": 3
+  }
+ },
+ "abs-029": {
+  "doc_type": "abstract",
+  "format": "sources",
+  "held_out": true,
+  "fields": {
+   "title": "Effects of sleep duration and recall: a randomised controlled trial",
+   "authors": [
+    "Osei",
+    "Lindqvist"
+   ],
+   "year": 2018,
+   "study_design": "rct",
+   "other_detail": null,
+   "sample_size": 2931,
+   "reference_count": 6
+  }
+ },
+ "abs-030": {
+  "doc_type": "abstract",
+  "format": "sources",
+  "held_out": true,
+  "fields": {
+   "title": "Effects of urban tree cover and heat: a qualitative interview study",
+   "authors": [
+    "Haddad",
+    "Reyes"
+   ],
+   "year": 2026,
+   "study_design": "other",
+   "other_detail": "qualitative interview study",
+   "sample_size": null,
+   "reference_count": 4
+  }
+ },
+ "con-001": {
+  "doc_type": "contract",
+  "format": "clauses",
+  "held_out": false,
+  "fields": {
+   "parties": [
+    "Harbor Labs",
+    "Alder & Finch"
+   ],
+   "effective_date": "2025-04-17",
+   "term_months": 36,
+   "payment_due_days": 30,
+   "notice_days": null,
+   "governing_law": "Oregon",
+   "auto_renew": null
+  }
+ },
+ "con-002": {
+  "doc_type": "contract",
+  "format": "clauses",
+  "held_out": false,
+  "fields": {
+   "parties": [
+    "Alder & Finch",
+    "Tallgrass Co"
+   ],
+   "effective_date": "2025-06-02",
+   "term_months": 24,
+   "payment_due_days": 30,
+   "notice_days": null,
+   "governing_law": null,
+   "auto_renew": null
+  }
+ },
+ "con-003": {
+  "doc_type": "contract",
+  "format": "clauses",
+  "held_out": false,
+  "fields": {
+   "parties": [
+    "Alder & Finch",
+    "Northwind Supply"
+   ],
+   "effective_date": "2025-09-28",
+   "term_months": 18,
+   "payment_due_days": 60,
+   "notice_days": 60,
+   "governing_law": null,
+   "auto_renew": null
+  }
+ },
+ "con-004": {
+  "doc_type": "contract",
+  "format": "clauses",
+  "held_out": false,
+  "fields": {
+   "parties": [
+    "Blue Heron Systems",
+    "Harbor Labs"
+   ],
+   "effective_date": "2024-06-11",
+   "term_months": 24,
+   "payment_due_days": 15,
+   "notice_days": 30,
+   "governing_law": "New York",
+   "auto_renew": null
+  }
+ },
+ "con-005": {
+  "doc_type": "contract",
+  "format": "clauses",
+  "held_out": false,
+  "fields": {
+   "parties": [
+    "Blue Heron Systems",
+    "Alder & Finch"
+   ],
+   "effective_date": "2026-06-06",
+   "term_months": 30,
+   "payment_due_days": 45,
+   "notice_days": null,
+   "governing_law": "Delaware",
+   "auto_renew": null
+  }
+ },
+ "con-006": {
+  "doc_type": "contract",
+  "format": "clauses",
+  "held_out": false,
+  "fields": {
+   "parties": [
+    "Meridian Works",
+    "Northwind Supply"
+   ],
+   "effective_date": "2025-02-26",
+   "term_months": 36,
+   "payment_due_days": 30,
+   "notice_days": null,
+   "governing_law": "Delaware",
+   "auto_renew": true
+  }
+ },
+ "con-007": {
+  "doc_type": "contract",
+  "format": "clauses",
+  "held_out": false,
+  "fields": {
+   "parties": [
+    "Tallgrass Co",
+    "Pinecrest Software"
+   ],
+   "effective_date": "2026-05-14",
+   "term_months": 36,
+   "payment_due_days": 45,
+   "notice_days": 60,
+   "governing_law": "Oregon",
+   "auto_renew": true
+  }
+ },
+ "con-008": {
+  "doc_type": "contract",
+  "format": "clauses",
+  "held_out": false,
+  "fields": {
+   "parties": [
+    "Tallgrass Co",
+    "Blue Heron Systems"
+   ],
+   "effective_date": "2025-04-01",
+   "term_months": 24,
+   "payment_due_days": 15,
+   "notice_days": 90,
+   "governing_law": null,
+   "auto_renew": null
+  }
+ },
+ "con-009": {
+  "doc_type": "contract",
+  "format": "clauses",
+  "held_out": false,
+  "fields": {
+   "parties": [
+    "Pinecrest Software",
+    "Northwind Supply"
+   ],
+   "effective_date": "2024-09-05",
+   "term_months": 24,
+   "payment_due_days": 30,
+   "notice_days": 60,
+   "governing_law": "Texas",
+   "auto_renew": null
+  }
+ },
+ "con-010": {
+  "doc_type": "contract",
+  "format": "clauses",
+  "held_out": false,
+  "fields": {
+   "parties": [
+    "Harbor Labs",
+    "Northwind Supply"
+   ],
+   "effective_date": "2025-08-25",
+   "term_months": 30,
+   "payment_due_days": 60,
+   "notice_days": 30,
+   "governing_law": null,
+   "auto_renew": true
+  }
+ },
+ "con-011": {
+  "doc_type": "contract",
+  "format": "clauses",
+  "held_out": false,
+  "fields": {
+   "parties": [
+    "Pinecrest Software",
+    "Blue Heron Systems"
+   ],
+   "effective_date": "2024-10-13",
+   "term_months": 36,
+   "payment_due_days": 30,
+   "notice_days": 90,
+   "governing_law": "Delaware",
+   "auto_renew": false
+  }
+ },
+ "con-012": {
+  "doc_type": "contract",
+  "format": "clauses",
+  "held_out": false,
+  "fields": {
+   "parties": [
+    "Pinecrest Software",
+    "Alder & Finch"
+   ],
+   "effective_date": "2025-02-05",
+   "term_months": 36,
+   "payment_due_days": 60,
+   "notice_days": null,
+   "governing_law": "Texas",
+   "auto_renew": false
+  }
+ },
+ "con-013": {
+  "doc_type": "contract",
+  "format": "clauses",
+  "held_out": false,
+  "fields": {
+   "parties": [
+    "Meridian Works",
+    "Quill Freight"
+   ],
+   "effective_date": "2026-05-21",
+   "term_months": 36,
+   "payment_due_days": 45,
+   "notice_days": 30,
+   "governing_law": "Oregon",
+   "auto_renew": true
+  }
+ },
+ "con-014": {
+  "doc_type": "contract",
+  "format": "clauses",
+  "held_out": false,
+  "fields": {
+   "parties": [
+    "Meridian Works",
+    "Quill Freight"
+   ],
+   "effective_date": "2025-03-01",
+   "term_months": 12,
+   "payment_due_days": 60,
+   "notice_days": 90,
+   "governing_law": "Delaware",
+   "auto_renew": true
+  }
+ },
+ "con-015": {
+  "doc_type": "contract",
+  "format": "clauses",
+  "held_out": false,
+  "fields": {
+   "parties": [
+    "Meridian Works",
+    "Tallgrass Co"
+   ],
+   "effective_date": "2024-08-13",
+   "term_months": 30,
+   "payment_due_days": 15,
+   "notice_days": 30,
+   "governing_law": "New York",
+   "auto_renew": true
+  }
+ },
+ "con-016": {
+  "doc_type": "contract",
+  "format": "letter",
+  "held_out": false,
+  "fields": {
+   "parties": [
+    "Northwind Supply",
+    "Meridian Works"
+   ],
+   "effective_date": "2026-03-03",
+   "term_months": 24,
+   "payment_due_days": 15,
+   "notice_days": null,
+   "governing_law": "Texas",
+   "auto_renew": true
+  }
+ },
+ "con-017": {
+  "doc_type": "contract",
+  "format": "letter",
+  "held_out": false,
+  "fields": {
+   "parties": [
+    "Pinecrest Software",
+    "Northwind Supply"
+   ],
+   "effective_date": "2024-10-24",
+   "term_months": 12,
+   "payment_due_days": 30,
+   "notice_days": 30,
+   "governing_law": "Oregon",
+   "auto_renew": true
+  }
+ },
+ "con-018": {
+  "doc_type": "contract",
+  "format": "letter",
+  "held_out": false,
+  "fields": {
+   "parties": [
+    "Pinecrest Software",
+    "Blue Heron Systems"
+   ],
+   "effective_date": "2026-04-03",
+   "term_months": 30,
+   "payment_due_days": 60,
+   "notice_days": 30,
+   "governing_law": "New York",
+   "auto_renew": false
+  }
+ },
+ "con-019": {
+  "doc_type": "contract",
+  "format": "letter",
+  "held_out": false,
+  "fields": {
+   "parties": [
+    "Meridian Works",
+    "Harbor Labs"
+   ],
+   "effective_date": "2026-05-20",
+   "term_months": 36,
+   "payment_due_days": 45,
+   "notice_days": 60,
+   "governing_law": "New York",
+   "auto_renew": null
+  }
+ },
+ "con-020": {
+  "doc_type": "contract",
+  "format": "letter",
+  "held_out": false,
+  "fields": {
+   "parties": [
+    "Blue Heron Systems",
+    "Alder & Finch"
+   ],
+   "effective_date": "2024-05-04",
+   "term_months": 12,
+   "payment_due_days": 60,
+   "notice_days": 60,
+   "governing_law": "Oregon",
+   "auto_renew": false
+  }
+ },
+ "con-021": {
+  "doc_type": "contract",
+  "format": "letter",
+  "held_out": false,
+  "fields": {
+   "parties": [
+    "Tallgrass Co",
+    "Blue Heron Systems"
+   ],
+   "effective_date": "2025-05-13",
+   "term_months": 18,
+   "payment_due_days": 30,
+   "notice_days": 60,
+   "governing_law": "New York",
+   "auto_renew": null
+  }
+ },
+ "con-022": {
+  "doc_type": "contract",
+  "format": "letter",
+  "held_out": false,
+  "fields": {
+   "parties": [
+    "Northwind Supply",
+    "Pinecrest Software"
+   ],
+   "effective_date": "2026-05-10",
+   "term_months": 36,
+   "payment_due_days": 30,
+   "notice_days": null,
+   "governing_law": null,
+   "auto_renew": null
+  }
+ },
+ "con-023": {
+  "doc_type": "contract",
+  "format": "letter",
+  "held_out": false,
+  "fields": {
+   "parties": [
+    "Northwind Supply",
+    "Harbor Labs"
+   ],
+   "effective_date": "2025-04-20",
+   "term_months": 18,
+   "payment_due_days": 15,
+   "notice_days": null,
+   "governing_law": null,
+   "auto_renew": false
+  }
+ },
+ "con-024": {
+  "doc_type": "contract",
+  "format": "letter",
+  "held_out": false,
+  "fields": {
+   "parties": [
+    "Alder & Finch",
+    "Meridian Works"
+   ],
+   "effective_date": "2026-05-19",
+   "term_months": 12,
+   "payment_due_days": 30,
+   "notice_days": 60,
+   "governing_law": "Texas",
+   "auto_renew": true
+  }
+ },
+ "con-025": {
+  "doc_type": "contract",
+  "format": "letter",
+  "held_out": false,
+  "fields": {
+   "parties": [
+    "Alder & Finch",
+    "Blue Heron Systems"
+   ],
+   "effective_date": "2024-08-04",
+   "term_months": 12,
+   "payment_due_days": 30,
+   "notice_days": 60,
+   "governing_law": "Oregon",
+   "auto_renew": true
+  }
+ },
+ "con-026": {
+  "doc_type": "contract",
+  "format": "letter",
+  "held_out": false,
+  "fields": {
+   "parties": [
+    "Northwind Supply",
+    "Blue Heron Systems"
+   ],
+   "effective_date": "2026-06-20",
+   "term_months": 30,
+   "payment_due_days": 60,
+   "notice_days": 90,
+   "governing_law": "Delaware",
+   "auto_renew": null
+  }
+ },
+ "con-027": {
+  "doc_type": "contract",
+  "format": "letter",
+  "held_out": false,
+  "fields": {
+   "parties": [
+    "Northwind Supply",
+    "Meridian Works"
+   ],
+   "effective_date": "2026-01-13",
+   "term_months": 24,
+   "payment_due_days": 15,
+   "notice_days": 30,
+   "governing_law": null,
+   "auto_renew": null
+  }
+ },
+ "con-028": {
+  "doc_type": "contract",
+  "format": "letter",
+  "held_out": false,
+  "fields": {
+   "parties": [
+    "Tallgrass Co",
+    "Meridian Works"
+   ],
+   "effective_date": "2026-03-17",
+   "term_months": 24,
+   "payment_due_days": 15,
+   "notice_days": 60,
+   "governing_law": null,
+   "auto_renew": false
+  }
+ },
+ "con-029": {
+  "doc_type": "contract",
+  "format": "letter",
+  "held_out": false,
+  "fields": {
+   "parties": [
+    "Northwind Supply",
+    "Alder & Finch"
+   ],
+   "effective_date": "2025-12-15",
+   "term_months": 18,
+   "payment_due_days": 45,
+   "notice_days": 30,
+   "governing_law": "Delaware",
+   "auto_renew": null
+  }
+ },
+ "con-030": {
+  "doc_type": "contract",
+  "format": "letter",
+  "held_out": false,
+  "fields": {
+   "parties": [
+    "Quill Freight",
+    "Blue Heron Systems"
+   ],
+   "effective_date": "2024-05-21",
+   "term_months": 30,
+   "payment_due_days": 60,
+   "notice_days": 60,
+   "governing_law": "New York",
+   "auto_renew": false
+  }
+ }
+}

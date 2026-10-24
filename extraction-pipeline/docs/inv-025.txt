@@ -1,0 +1,14 @@
+Harbor Labs
+INVOICE INV-2026-1025   Date: 2026-01-25
+Category: Software licence
+
+Item       Qty     Price
+Item A       1    294.00
+Item B       2    323.00
+Item C       1    830.00
+Item D       1    559.00
+
+Subtotal 2329.00
+Tax 192.14
+TOTAL 2521.14
+

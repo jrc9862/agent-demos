@@ -1,0 +1,5 @@
+Subject: your invoice
+From: billing@blue.example
+
+Hi, attaching INV-2026-1038 dated 1 March 2025 for professional services. Goods came to 3026.00 before tax; tax was 211.82; grand total 3237.82. 
+Thanks, Blue Heron Systems billing

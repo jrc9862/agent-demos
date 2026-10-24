@@ -1,0 +1,13 @@
+Quill Freight
+INVOICE INV-2026-1015   Date: 2026-06-24
+Category: Software licence
+
+Item       Qty     Price
+Item A       4    531.00
+Item B       4    359.00
+Item C       1    187.00
+
+Subtotal 3747.00
+Tax 187.35
+TOTAL 3934.35
+

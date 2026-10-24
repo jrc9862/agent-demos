@@ -1,0 +1,1 @@
+Invoice INV-2026-1008 from Meridian Works, issued 1 June 2026. This covers: 3 x Item A at $702.00; 5 x Item B at $737.00. Purchase type: Software licence. Subtotal comes to $5791.00, tax is $477.76, so the amount due is $6297.76. 

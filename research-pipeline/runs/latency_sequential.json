@@ -1,0 +1,16 @@
+{
+ "mode": "sequential",
+ "tag": "sequential",
+ "wall_clock_s": 45.6,
+ "agent_calls": 4,
+ "agent_calls_per_response": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "max_concurrent_searches": 1,
+ "records": 6,
+ "gaps": [],
+ "synthesizer_problems": []
+}

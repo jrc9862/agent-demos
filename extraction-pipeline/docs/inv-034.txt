@@ -1,0 +1,5 @@
+Subject: your invoice
+From: billing@northwind.example
+
+Hi, attaching INV-2026-1034 dated 1 January 2025 for venue hire. Goods came to 6100.00 before tax; tax was 305.00; grand total 6405.00. 
+Thanks, Northwind Supply billing

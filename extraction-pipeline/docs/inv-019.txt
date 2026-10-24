@@ -1,0 +1,12 @@
+Harbor Labs
+INVOICE INV-2026-1019   Date: 2025-11-12
+Category: Professional services
+
+Item       Qty     Price
+Item A       4    679.00
+Item B       5    900.00
+
+Subtotal 7216.00
+Tax 360.80
+TOTAL 7576.80
+

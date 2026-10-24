@@ -1,0 +1,14 @@
+Meridian Works
+INVOICE INV-2026-1026   Date: 2026-04-27
+Category: Equipment rental
+
+Item       Qty     Price
+Item A       3    503.00
+Item B       5    586.00
+Item C       4    559.00
+Item D       2    755.00
+
+Subtotal 8185.00
+Tax 654.80
+TOTAL 8839.80
+Warranty valid until 15 July 2027.

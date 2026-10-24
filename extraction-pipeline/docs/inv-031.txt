@@ -1,0 +1,5 @@
+Subject: your invoice
+From: billing@pinecrest.example
+
+Hi, attaching INV-2026-1031 dated 2 May 2024 for venue hire. Goods came to 7326.00 before tax; tax was 586.08; grand total 7912.08. 
+Thanks, Pinecrest Software billing

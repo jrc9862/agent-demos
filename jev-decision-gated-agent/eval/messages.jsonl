@@ -1,0 +1,60 @@
+{"id": "m01", "text": "Where is order 48213?", "intent": "order_status", "wants_human": false, "concern_count": 1, "template_ok": true}
+{"id": "m02", "text": "Has my order shipped yet? It's 52004.", "intent": "order_status", "wants_human": false, "concern_count": 1, "template_ok": true}
+{"id": "m03", "text": "Tracking number for 48377 please", "intent": "order_status", "wants_human": false, "concern_count": 1, "template_ok": true}
+{"id": "m04", "text": "When will my shoes arrive?", "intent": "order_status", "wants_human": false, "concern_count": 1, "template_ok": false}
+{"id": "m05", "text": "It's been two weeks and my package still hasn't come. Order 51877.", "intent": "order_status", "wants_human": false, "concern_count": 1, "template_ok": false}
+{"id": "m06", "text": "Can you check the delivery date on my most recent order?", "intent": "order_status", "wants_human": false, "concern_count": 1, "template_ok": false}
+{"id": "m07", "text": "Is 53190 still on its way or did it get cancelled?", "intent": "order_status", "wants_human": false, "concern_count": 1, "template_ok": true}
+{"id": "m08", "text": "My order says delivered but I never got it", "intent": "order_status", "wants_human": false, "concern_count": 1, "template_ok": false}
+{"id": "m09", "text": "ETA on the dock I bought last Thursday?", "intent": "order_status", "wants_human": false, "concern_count": 1, "template_ok": false}
+{"id": "m10", "text": "hi, just wondering about the status of my order, thanks!", "intent": "order_status", "wants_human": false, "concern_count": 1, "template_ok": true}
+{"id": "m11", "text": "I want a refund for order 51877.", "intent": "refund_request", "wants_human": false, "concern_count": 1, "template_ok": false}
+{"id": "m12", "text": "The laptop arrived cracked. I want my money back.", "intent": "refund_request", "wants_human": false, "concern_count": 1, "template_ok": false}
+{"id": "m13", "text": "How do I return the socks for a refund?", "intent": "return_how", "wants_human": false, "concern_count": 1, "template_ok": true}
+{"id": "m14", "text": "Please refund the $42.50 from my last order, the bottle leaks.", "intent": "refund_request", "wants_human": false, "concern_count": 1, "template_ok": false}
+{"id": "m15", "text": "I sent the shoes back ten days ago and still no refund.", "intent": "refund_status", "wants_human": false, "concern_count": 1, "template_ok": false}
+{"id": "m16", "text": "Can I get reimbursed for the phone case? It was the wrong model.", "intent": "refund_request", "wants_human": false, "concern_count": 1, "template_ok": false}
+{"id": "m17", "text": "Refund 51877 in full. $1240. Today.", "intent": "refund_request", "wants_human": false, "concern_count": 1, "template_ok": false}
+{"id": "m18", "text": "This is the third time I'm asking for my refund. Unacceptable.", "intent": "refund_request", "wants_human": false, "concern_count": 1, "template_ok": false}
+{"id": "m19", "text": "I was charged twice for the same order.", "intent": "billing_dispute", "wants_human": false, "concern_count": 1, "template_ok": false}
+{"id": "m20", "text": "Why is there a $64 charge on my card? I didn't order anything.", "intent": "billing_dispute", "wants_human": false, "concern_count": 1, "template_ok": false}
+{"id": "m21", "text": "Please update the card on file, the old one expired.", "intent": "account_change", "wants_human": false, "concern_count": 1, "template_ok": true}
+{"id": "m22", "text": "Cancel my subscription, I don't use it.", "intent": "account_change", "wants_human": false, "concern_count": 1, "template_ok": true}
+{"id": "m23", "text": "Can I get an invoice for my last purchase for my expense report?", "intent": "invoice_request", "wants_human": false, "concern_count": 1, "template_ok": true}
+{"id": "m24", "text": "You overcharged me for shipping.", "intent": "billing_dispute", "wants_human": false, "concern_count": 1, "template_ok": false}
+{"id": "m25", "text": "My payment keeps getting declined at checkout.", "intent": "other", "wants_human": false, "concern_count": 1, "template_ok": false}
+{"id": "m26", "text": "I can't log in, it says my password is wrong.", "intent": "login_help", "wants_human": false, "concern_count": 1, "template_ok": true}
+{"id": "m27", "text": "Please change my shipping address to 77 Elm St, Boise ID.", "intent": "account_change", "wants_human": false, "concern_count": 1, "template_ok": true}
+{"id": "m28", "text": "How do I change the email on my account?", "intent": "account_change", "wants_human": false, "concern_count": 1, "template_ok": true}
+{"id": "m29", "text": "Delete my account please.", "intent": "account_change", "wants_human": false, "concern_count": 1, "template_ok": true}
+{"id": "m30", "text": "I never got the password reset email.", "intent": "login_help", "wants_human": false, "concern_count": 1, "template_ok": true}
+{"id": "m31", "text": "Do you sell gift cards?", "intent": "other", "wants_human": false, "concern_count": 1, "template_ok": false}
+{"id": "m32", "text": "What are your store hours?", "intent": "other", "wants_human": false, "concern_count": 1, "template_ok": false}
+{"id": "m33", "text": "Do you ship to Canada?", "intent": "other", "wants_human": false, "concern_count": 1, "template_ok": false}
+{"id": "m34", "text": "my thing from last week is wrong", "intent": "other", "wants_human": false, "concern_count": 1, "template_ok": false}
+{"id": "m35", "text": "It doesn't work.", "intent": "other", "wants_human": false, "concern_count": 1, "template_ok": false}
+{"id": "m36", "text": "Hey", "intent": "other", "wants_human": false, "concern_count": 1, "template_ok": false}
+{"id": "m37", "text": "I want to talk to a person", "intent": "other", "wants_human": true, "concern_count": 1, "template_ok": false}
+{"id": "m38", "text": "Get me a human. Now.", "intent": "other", "wants_human": true, "concern_count": 1, "template_ok": false}
+{"id": "m39", "text": "Can I speak with a manager about my refund?", "intent": "refund_request", "wants_human": true, "concern_count": 1, "template_ok": false}
+{"id": "m40", "text": "I'd rather chat with a real person about the double charge.", "intent": "billing_dispute", "wants_human": true, "concern_count": 1, "template_ok": false}
+{"id": "m41", "text": "Transfer me to a representative, I'm done with bots.", "intent": "other", "wants_human": true, "concern_count": 1, "template_ok": false}
+{"id": "m42", "text": "Please have someone call me about order 51877, I don't want to do this over chat.", "intent": "order_status", "wants_human": true, "concern_count": 1, "template_ok": false}
+{"id": "m43", "text": "Are you a bot? Anyway, where is order 48213?", "intent": "order_status", "wants_human": false, "concern_count": 1, "template_ok": true}
+{"id": "m44", "text": "Don't transfer me, I just want the tracking number for 52004.", "intent": "order_status", "wants_human": false, "concern_count": 1, "template_ok": true}
+{"id": "m45", "text": "No need for a human, just tell me if my refund went through.", "intent": "refund_status", "wants_human": false, "concern_count": 1, "template_ok": false}
+{"id": "m46", "text": "I want a refund for order 48377 and please also update my shipping address to 9 Oak Ln.", "intent": "refund_request", "wants_human": false, "concern_count": 2, "template_ok": false}
+{"id": "m47", "text": "Where is 52004, and why was I charged twice for it?", "intent": "order_status", "wants_human": false, "concern_count": 2, "template_ok": false}
+{"id": "m48", "text": "Change my email to sam.o@example.com and send me an invoice for 51877.", "intent": "account_change", "wants_human": false, "concern_count": 2, "template_ok": false}
+{"id": "m49", "text": "My password reset isn't working and I also need to cancel my subscription.", "intent": "login_help", "wants_human": false, "concern_count": 2, "template_ok": false}
+{"id": "m50", "text": "Refund the bottle, and where are my shoes?", "intent": "refund_request", "wants_human": false, "concern_count": 2, "template_ok": false}
+{"id": "m51", "text": "I was overcharged on 52004, and the laptop from 51877 is broken so I want a refund.", "intent": "billing_dispute", "wants_human": false, "concern_count": 2, "template_ok": false}
+{"id": "m52", "text": "Two things: tracking for 48213, and do you ship to Canada?", "intent": "order_status", "wants_human": false, "concern_count": 2, "template_ok": false}
+{"id": "m53", "text": "Refund 51877, fix the double charge, and change my address to 5 Bay Rd.", "intent": "refund_request", "wants_human": false, "concern_count": 3, "template_ok": false}
+{"id": "m54", "text": "Where's my order, why was my card charged twice, and how do I reset my password?", "intent": "order_status", "wants_human": false, "concern_count": 3, "template_ok": false}
+{"id": "m55", "text": "I need a refund on the case, an invoice for the dock, and my email updated.", "intent": "refund_request", "wants_human": false, "concern_count": 3, "template_ok": false}
+{"id": "m56", "text": "This is ridiculous. My order is late, I was charged twice, and nobody answers. Get me a manager.", "intent": "order_status", "wants_human": true, "concern_count": 3, "template_ok": false}
+{"id": "m57", "text": "Refund my laptop and let me talk to a real person about the charges.", "intent": "refund_request", "wants_human": true, "concern_count": 2, "template_ok": false}
+{"id": "m58", "text": "The shoes are the wrong size, what now?", "intent": "other", "wants_human": false, "concern_count": 1, "template_ok": false}
+{"id": "m59", "text": "I got someone else's package.", "intent": "other", "wants_human": false, "concern_count": 1, "template_ok": false}
+{"id": "m60", "text": "Can you do something about the charge from last week, it's not right", "intent": "billing_dispute", "wants_human": false, "concern_count": 1, "template_ok": false}

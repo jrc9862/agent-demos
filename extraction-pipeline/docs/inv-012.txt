@@ -1,0 +1,1 @@
+Invoice INV-2026-1012 from Harbor Labs, issued 13 July 2025. This covers: 5 x Item A at $672.00; 1 x Item B at $507.00. Purchase type: Venue hire. Subtotal comes to $3867.00, tax is $319.03, so the amount due is $4186.03. 

@@ -1,0 +1,13 @@
+Blue Heron Systems
+INVOICE INV-2026-1028   Date: 2025-07-07
+Category: Catering
+
+Item       Qty     Price
+Item A       4    206.00
+Item B       2    205.00
+Item C       4    567.00
+
+Subtotal 3502.00
+Tax 288.92
+TOTAL 3790.92
+

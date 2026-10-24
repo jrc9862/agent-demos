@@ -1,0 +1,5 @@
+Subject: your invoice
+From: billing@alder.example
+
+Hi, attaching INV-2026-1035 dated 23 May 2026 for equipment rental. Goods came to 7000.00 before tax; tax was 577.50; grand total 7577.50. 
+Thanks, Alder & Finch billing

@@ -1,0 +1,5 @@
+Subject: your invoice
+From: billing@blue.example
+
+Hi, attaching INV-2026-1032 dated 1 August 2024 for software licence. Goods came to 1924.00 before tax; tax was 134.68; grand total 2037.68. 
+Thanks, Blue Heron Systems billing

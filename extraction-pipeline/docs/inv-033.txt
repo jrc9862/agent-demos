@@ -1,0 +1,5 @@
+Subject: your invoice
+From: billing@alder.example
+
+Hi, attaching INV-2026-1033 dated 6 January 2025 for travel expenses. Goods came to 1743.00 before tax; tax was 122.01; grand total 1865.01. 
+Thanks, Alder & Finch billing
